@@ -8,7 +8,17 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-   Hello World!
     
+    <!-- Navigation Bar -->
+    <?php include_once('includes/navigation.php') ;?>
+
+    <!-- First Section (change name later) -->
+    <section class="section">
+        <div class="container">
+            Hello World!
+            <div id="test">click here</div> 
+        </div>
+    </section>
 </body>
+<script src="js/app.js"></script>
 </html>

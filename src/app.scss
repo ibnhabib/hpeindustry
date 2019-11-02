@@ -1,6 +1,34 @@
-// Variables
-
 // Bulma Variables go here
+$primary: #059ede;
+$navbar-height: 4rem;
+
+// Custom Variables
+$dark-primary: #035199;
+@import "../node_modules/bulma/bulma.sass";
 
 
-@import "../node_modules/bulma/bulma.sass"
+#cogs{
+
+}
+
+#outer-cog{
+    transform-origin: center;
+    animation:spin 35s linear infinite;
+    transform-box: fill-box;
+}
+#center-cog{
+    transform-origin: center;
+    animation:backspin 30s linear infinite;
+    transform-box: fill-box;
+}
+@keyframes spin { 
+    100% { 
+        transform:rotate(360deg); 
+    } 
+}
+
+@keyframes backspin { 
+    100% { 
+        transform:rotate(-360deg); 
+    } 
+}
