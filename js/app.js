@@ -99,10 +99,10 @@ document.getElementById('test').addEventListener('click', function () {
 
 /***/ }),
 
-/***/ "./src/app.scss":
-/*!**********************!*\
-  !*** ./src/app.scss ***!
-  \**********************/
+/***/ "./src/sass/app.scss":
+/*!***************************!*\
+  !*** ./src/sass/app.scss ***!
+  \***************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -111,14 +111,14 @@ document.getElementById('test').addEventListener('click', function () {
 /***/ }),
 
 /***/ 0:
-/*!*****************************************!*\
-  !*** multi ./src/app.js ./src/app.scss ***!
-  \*****************************************/
+/*!**********************************************!*\
+  !*** multi ./src/app.js ./src/sass/app.scss ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Users/mustaphahamoui/Sites/hpeindustry/src/app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! /Users/mustaphahamoui/Sites/hpeindustry/src/app.scss */"./src/app.scss");
+module.exports = __webpack_require__(/*! /Users/mustaphahamoui/Sites/hpeindustry/src/sass/app.scss */"./src/sass/app.scss");
 
 
 /***/ })

@@ -1,12 +1,3 @@
-// Bulma Variables go here
-$primary: #059ede;
-$navbar-height: 4rem;
-
-// Custom Variables
-$dark-primary: #035199;
-@import "../node_modules/bulma/bulma.sass";
-
-
 #outer-cog{
     transform-origin: center;
     animation:spin 35s linear infinite;
