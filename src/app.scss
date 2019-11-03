@@ -7,10 +7,6 @@ $dark-primary: #035199;
 @import "../node_modules/bulma/bulma.sass";
 
 
-#cogs{
-
-}
-
 #outer-cog{
     transform-origin: center;
     animation:spin 35s linear infinite;
@@ -20,6 +16,11 @@ $dark-primary: #035199;
     transform-origin: center;
     animation:backspin 30s linear infinite;
     transform-box: fill-box;
+}
+#inner-cog{
+    transform-origin: center;
+    animation:spin 35s linear infinite;
+
 }
 @keyframes spin { 
     100% { 

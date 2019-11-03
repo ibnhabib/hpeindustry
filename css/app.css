@@ -12451,6 +12451,13 @@ label.panel-block:hover {
   transform-box: fill-box;
 }
 
+#inner-cog {
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: spin 35s linear infinite;
+          animation: spin 35s linear infinite;
+}
+
 @-webkit-keyframes spin {
   100% {
     -webkit-transform: rotate(360deg);

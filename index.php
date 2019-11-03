@@ -9,6 +9,8 @@
 </head>
 <body>
     
+    <?php include_once('includes/upper_band.php') ;?>
+
     <!-- Navigation Bar -->
     <?php include_once('includes/navigation.php') ;?>
 
