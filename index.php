@@ -13,14 +13,13 @@
 
     <!-- Navigation Bar -->
     <?php include_once('includes/navigation.php') ;?>
-
+    
     <!-- First Section (change name later) -->
-    <section class="section">
-        <div class="container">
-            Hello World!
-            <div id="test">click here</div> 
-        </div>
-    </section>
+    <!-- <?php include_once('includes/hero.php') ;?> -->
+    
+    <!-- Products -->
+    <?php include_once('includes/products.php') ;?>
+
 </body>
 <script src="js/app.js"></script>
 </html>

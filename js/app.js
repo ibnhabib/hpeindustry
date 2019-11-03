@@ -93,9 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-document.getElementById('test').addEventListener('click', function () {
-  console.log('Javascript working');
-});
+
 
 /***/ }),
 

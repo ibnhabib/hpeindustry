@@ -4,6 +4,11 @@
 // Bulma
 @import "../../node_modules/bulma/bulma.sass";
 
+// General / Utilities 
+@import "./modules/general";
+
 // Animation of Logo
 @import "./modules/logo_animation";
 
+// Hero 
+@import "./modules/hero";
