@@ -15,7 +15,7 @@
     <?php include_once('includes/navigation.php') ;?>
     
     <!-- First Section (change name later) -->
-    <!-- <?php include_once('includes/hero.php') ;?> -->
+    <?php include_once('includes/hero.php') ;?>
     
     <!-- Products -->
     <?php include_once('includes/products.php') ;?>
