@@ -19,6 +19,19 @@
     } 
 }
 
+#liquid{
+    animation:tubeliquid 7s ease-out infinite;
+}
+#water-reflection{
+    animation:tubeliquid 7s ease-out infinite;
+}
+
+@keyframes tubeliquid{
+    100%{
+        transform: translateX(290px);
+    }
+}
+
 @keyframes backspin { 
     100% { 
         transform:rotate(-360deg); 

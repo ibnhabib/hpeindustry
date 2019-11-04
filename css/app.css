@@ -12476,6 +12476,30 @@ label.panel-block:hover {
   }
 }
 
+#liquid {
+  -webkit-animation: tubeliquid 7s ease-out infinite;
+          animation: tubeliquid 7s ease-out infinite;
+}
+
+#water-reflection {
+  -webkit-animation: tubeliquid 7s ease-out infinite;
+          animation: tubeliquid 7s ease-out infinite;
+}
+
+@-webkit-keyframes tubeliquid {
+  100% {
+    -webkit-transform: translateX(290px);
+            transform: translateX(290px);
+  }
+}
+
+@keyframes tubeliquid {
+  100% {
+    -webkit-transform: translateX(290px);
+            transform: translateX(290px);
+  }
+}
+
 @-webkit-keyframes backspin {
   100% {
     -webkit-transform: rotate(-360deg);
