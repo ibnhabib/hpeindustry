@@ -16,9 +16,9 @@
     <div class="columns  has-background-light">
       <div class="column is-3">
         <h2 class="title is-size-3">Welcome To HPE Industry</h2>
-        <p class="subtitle is-size-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolorum expedita, exercitationem dolor voluptatibus omnis ad ex sint nulla nihil labore obcaecati aperiam, aliquam illum. Ullam omnis consequatur nesciunt doloribus?</p>
+        <p class="is-size-5">Established in April 2005, H.P.E. INDUSTRY LTD. is a well stocked, full service hydraulic, pneumatic and electronics- company that offers a wide range of hydraulics, pneumatics and electronic equipment and services</p>
       </div>
-      <div class="column is-9">
+      <div class="column is-paddingless is-9">
         <img src="/img/slides/blue-festo-jose-joao.jpg" alt="">
       </div>
     </div>
