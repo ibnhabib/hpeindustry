@@ -2,10 +2,9 @@
   <nav class="navbar container" role="navigation" aria-label="main navigation">
       
         <div class="navbar-brand">
-          <a class="navbar-item" href="https://bulma.io">
+          <a class="navbar-item" href="/">
             <div id="hpe_logo">
                 <?php include_once($project_root_folder.'/img/cogs.svg');?>
-            
             </div>
             <div>
               <?php include_once($project_root_folder.'/img/logo-text.svg') ;?>
