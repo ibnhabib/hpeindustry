@@ -22,7 +22,7 @@
     // List of partnames and filenames
     @include_once('manifest.php');
     $columns = 6;
-    $column_class = 'is-2 is-half-mobile'; // 4 columns, 12/6 = 2
+    $column_class = 'is-2'; // 4 columns, 12/6 = 2
 
     foreach ($titles as $key => $title):
     if ($key % $columns == 0):

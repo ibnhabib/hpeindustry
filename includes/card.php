@@ -1,6 +1,6 @@
 <div class="card">
   <div class="card-image">
-    <figure class="image">
+    <figure class="image is-square">
       <img src="<?=$image_location;?>" alt="<?=$image_description;?>">
     </figure>
   </div>
