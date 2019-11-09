@@ -4,11 +4,11 @@
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
             <div id="hpe_logo">
-                <?php include_once('img/cogs.svg');?>
+                <?php include_once($project_root_folder.'/img/cogs.svg');?>
             
             </div>
             <div>
-              <?php include_once('img/logo-text.svg') ;?>
+              <?php include_once($project_root_folder.'/img/logo-text.svg') ;?>
             </div>
             <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
           </a>
