@@ -16,39 +16,40 @@
     <!-- Navigation Bar -->
     <?php include_once($project_root_folder.'/includes/navigation.php') ;?>
 
+    <section class="section">
+        <div class="container">
     <?php
     // List of partnames and filenames
     @include_once('manifest.php');
-    $columns = 4;
+    $columns = 6;
+    $column_class = 'is-2'; // 4 columns, 12/6 = 2
 
     foreach ($titles as $key => $title):
-    if ($key % $columns == 0):?>    
+    if ($key % $columns == 0):
+        if($key !== 0):?> 
+            </div>
+        <?php endif; ?>
         <div class="columns">
     <?php
     endif;?> 
     
-    <div class="column">
+    <div class="column <?= $column_class ?>">
         <?php 
         $image_location= '/img/products/festo/'.$filenames[$key];
         $image_description = $title;
-        include_once($project_root_folder.'/includes/card.php'); 
+        include($project_root_folder.'/includes/card.php'); 
         ?>    
     </div>
 
-    <?php
-    if ($key % $columns == 0):?>    
-        </div>
-    <?php
-    endif; 
 
-?>
-
-    <img src="/img/products/festo/<?= $filenames[$key] ;?>">
-    <p><?= $title ;?></p>
+    <!-- <img src="/img/products/festo/<?= $filenames[$key] ;?>">
+    <p><?= $title ;?></p> -->
 <?php 
 endforeach;
 ?>
-
+</div> <!-- last .columns -->
+</div> <!-- .container -->
+</section>
 
 
 </body>
