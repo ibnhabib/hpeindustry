@@ -15,7 +15,7 @@
   <div class="container">
     <div class="columns  has-background-light">
       <div class="column is-3">
-        <h2 class="title is-size-3">Welcome To HPE Industry</h2>
+        <h1 class="title is-size-3">Welcome To HPE Industry</h1>
         <p class="is-size-5">Established in April 2005, H.P.E. INDUSTRY LTD. is a well stocked, full service hydraulic, pneumatic and electronics- company that offers a wide range of hydraulics, pneumatics and electronic equipment and services</p>
       </div>
       <div class="column is-paddingless is-9">
