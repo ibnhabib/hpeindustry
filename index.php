@@ -18,8 +18,22 @@
     <!-- First Section (change name later) -->
     <?php include_once($project_root_folder.'/includes/hero.php') ;?>
     
-    <!-- Products -->
-    <?php include_once($project_root_folder.'/includes/products.php') ;?>
+    <!-- Products and services -->
+    <section class="section has-little-padding">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8">
+                    <!-- Products -->
+                    <?php include_once($project_root_folder.'/includes/products.php') ;?>
+                </div>
+                <div class="column is-4">
+                    <!-- Services -->
+                    <?php include_once($project_root_folder.'/includes/services.php') ;?>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 <script src="js/app.js"></script>

@@ -16,6 +16,33 @@
     <!-- Navigation Bar -->
     <?php include_once($project_root_folder.'/includes/navigation.php') ;?>
 
+    <!-- Hero -->
+    <section class="hero is-primary is-strong">
+        <div class="hero-body">
+            <div class="container">
+            <h1 class="title">
+                Festo
+            </h1>
+            <h2 class="subtitle">
+            Festo produces and sells pneumatic and electrical control and drive technology for factory or process automation.<br> HPE Industry stocks a wide range of Festo spare parts.
+            </h2>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumbs -->
+
+    <section class="section">
+        <div class="container">
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li class="is-active"><a href="#" aria-current="page">Festo</a></li>
+            </ul>
+            </nav>
+        </div>
+    </section>
+
     <section class="section">
         <div class="container">
     <?php

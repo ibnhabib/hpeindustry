@@ -32,19 +32,40 @@
               </a>
       
               <div class="navbar-dropdown">
-                <a class="navbar-item">
-                  About
+                <a class="navbar-item" href="/products/festo">
+                  Festo
                 </a>
                 <a class="navbar-item">
-                  Jobs
+                  Aignep
                 </a>
                 <a class="navbar-item">
-                  Contact
+                  Autonics
                 </a>
-                <hr class="navbar-divider">
                 <a class="navbar-item">
-                  Report an issue
+                 Omex 
                 </a>
+                <a class="navbar-item">
+                  Finder
+                </a>
+                <a class="navbar-item">
+                  Infinity
+                </a>
+                <a class="navbar-item">
+                  Jorc
+                </a>
+                <a class="navbar-item">
+                  Mel
+                </a>
+                <a class="navbar-item">
+                  m&m
+                </a>
+                <a class="navbar-item">
+                  Omi
+                </a>
+                <a class="navbar-item">
+                  Shiny
+                </a>
+
               </div>
             </div>
             <a class="navbar-item">
