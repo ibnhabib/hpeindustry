@@ -35,10 +35,10 @@
                 <a class="navbar-item" href="/products/festo">
                   Festo
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href="/products/aignep">
                   Aignep
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href="/products/autonics">
                   Autonics
                 </a>
                 <a class="navbar-item">

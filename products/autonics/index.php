@@ -21,10 +21,9 @@
         <div class="hero-body">
             <div class="container">
             <h1 class="title">
-                Festo
+                Autonics
             </h1>
             <h2 class="subtitle">
-            Festo produces and sells pneumatic and electrical control and drive technology for factory or process automation.<br> HPE Industry stocks a wide range of Festo spare parts.
             </h2>
             </div>
         </div>
@@ -37,7 +36,7 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Products</a></li>
-                <li class="is-active"><a href="#" aria-current="page">Festo</a></li>
+                <li class="is-active"><a href="#" aria-current="page">Aignep </a></li>
             </ul>
             </nav>
         </div>
@@ -51,29 +50,30 @@
     $columns = 6;
     $column_class = 'is-2'; // 4 columns, 12/6 = 2
 
+
     foreach ($manifest as $key => $item):
-    if ($key % $columns == 0):
-        if($key !== 0):?> 
-            </div>
-        <?php endif; ?>
-        <div class="columns">
-    <?php
-    endif;?> 
+        if ($key % $columns == 0):
+            if($key !== 0):?> 
+                </div>
+            <?php endif; ?>
+            <div class="columns">
+        <?php
+        endif;?> 
+        
+        <div class="column <?= $column_class ?>">
+            <?php 
+            $image_location= '/img/products/autonics/'.$item['image'];
+            $image_description = $item['title'];
+            include($project_root_folder.'/includes/card.php'); 
+            ?>    
+        </div>
     
-    <div class="column <?= $column_class ?>">
-        <?php 
-        $image_location= '/img/products/festo/'.$item['image'];
-        $image_description = $item['title'];
-        include($project_root_folder.'/includes/card.php'); 
-        ?>    
-    </div>
-
-
-    <!-- <img src="/img/products/festo/<?= $filenames[$key] ;?>">
-    <p><?= $title ;?></p> -->
-<?php 
-endforeach;
-?>
+    
+        <!-- <img src="/img/products/festo/<?= $filenames[$key] ;?>">
+        <p><?= $title ;?></p> -->
+    <?php 
+    endforeach;
+    ?>
 </div> <!-- last .columns -->
 </div> <!-- .container -->
 </section>
