@@ -1,6 +1,8 @@
 <?php
 $routes = [
-    '/'                 =>      '/views/home.view.php',
+    '/'                     =>  '/views/home_page.view.php',
+    '/products'             =>  '/views/products_home.view.php',
+    '/services'             =>  '/views/services.view.php',
     '/products/{product}'   =>  '/views/product.view.php',
 ];
 
@@ -26,9 +28,10 @@ if (array_key_exists($url, $routes) && !strpos($url,'{')) {
 
 foreach ($routes as $route => $destination) {
     if (strpos($route,'{') && strpos($route,'}')) {
-        if (match_route_with_url($route, $url)) {
-            echo "you'll be directed to page $destination";
-            die;
+        $product_key = match_route_with_url($route, $url);
+        if ($product_key) {
+            require($project_root_folder . '/' .$destination);
+            return;
         }
     }
 }
