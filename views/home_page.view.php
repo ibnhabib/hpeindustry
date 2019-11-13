@@ -3,9 +3,10 @@
     $css = '/css/app.css';
     $script = 'js/app.js';
 ?>
-
+    <!-- Head, Meta Info -->
     <?php include_once($project_root_folder.'/views/partials/head.view.php'); ?>
     
+    <!-- Header Band for contact -->
     <?php include_once($project_root_folder.'/views/partials/upper_band.view.php') ;?>
 
     <!-- Navigation Bar -->
