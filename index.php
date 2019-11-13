@@ -2,7 +2,6 @@
 $routes = [
     '/'                 =>      '/views/home.php',
     '/products/{product}'   =>  '/views/product.php',
-    '/happy/snappy'            =>      '/views/happy.php'
 ];
 
 // Get URL from server
