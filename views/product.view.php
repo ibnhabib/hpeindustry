@@ -1,27 +1,34 @@
-<?php include_once('../../includes/common.php');?>
+<?php
+    // First guard against non-listed products;
+    if (!in_array($product_key, ['festo','aignep','autonics'])) {
+        die('Sorry, the product key' . $product_key  . ' is not listed yet');
+    }
+    
+    // Set Variables for page
+    $product_name = ucfirst($product_key);
+    $page_title = 'HPE Industry Products - ' . $product_name ;
+    $css = '/css/app.css';
+    $script = 'js/app.js';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome To HPE Industry</title>
-    <link rel="stylesheet" href="/css/app.css">
-</head>
-<body>
+
+    <!-- Head & Metadata -->
+    <?php include_once($project_root_folder.'/views/partials/head.view.php');?>
 
     <!-- Upper Bar -->
-    <?php include_once($project_root_folder.'/includes/upper_band.php') ;?>
+    <?php include_once($project_root_folder.'/views/partials/upper_band.view.php') ;?>
 
     <!-- Navigation Bar -->
-    <?php include_once($project_root_folder.'/includes/navigation.php') ;?>
+    <?php include_once($project_root_folder.'/views/partials/navigation.view.php') ;?>
 
     <!-- Hero -->
     <section class="hero is-primary is-strong">
         <div class="hero-body">
             <div class="container">
             <h1 class="title">
-               Aignep  
+               <?= $product_name ?>  
             </h1>
             <h2 class="subtitle">
             </h2>
@@ -36,7 +43,7 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Products</a></li>
-                <li class="is-active"><a href="#" aria-current="page">Aignep </a></li>
+                <li class="is-active"><a href="#" aria-current="page"><?= $product_name  ?> </a></li>
             </ul>
             </nav>
         </div>
@@ -46,7 +53,7 @@
         <div class="container">
     <?php
     // List of partnames and filenames
-    @include_once('manifest.php');
+    @include_once($project_root_folder . "/manifests/$product_key-manifest.php");
     $columns = 6;
     $column_class = 'is-2'; // 4 columns, 12/6 = 2
 
@@ -62,9 +69,9 @@
         
         <div class="column <?= $column_class ?>">
             <?php 
-            $image_location= '/img/products/aignep/'.$item['image'];
+            $image_location= "/img/products/$product_key/".$item['image'];
             $image_description = $item['title'];
-            include($project_root_folder.'/includes/card.php'); 
+            include($project_root_folder.'/views/partials/card.view.php'); 
             ?>    
         </div>
     
