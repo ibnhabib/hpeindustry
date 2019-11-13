@@ -1,8 +1,11 @@
 <?php
 $routes = [
-    '/'                 =>      '/views/home.php',
-    '/products/{product}'   =>  '/views/product.php',
+    '/'                 =>      '/views/home.view.php',
+    '/products/{product}'   =>  '/views/product.view.php',
 ];
+
+//intialize
+$project_root_folder = $_SERVER['DOCUMENT_ROOT'];
 
 // Get URL from server
 $url = $_SERVER['REQUEST_URI'];
@@ -10,14 +13,12 @@ $url = $_SERVER['REQUEST_URI'];
 // Trim Trailing slash
 $url = '/' . trim($url, '/');
 
-echo "URL: $url </br><hr>";
-
 // Handle basic case where url is exactly the same as in routes
 // (and make sure the url itself doesn't contain brackets {} so it doesn't match with wildcard keys)
 
 if (array_key_exists($url, $routes) && !strpos($url,'{')) {
-    echo "you'll be directed to page $routes[$url]";
-    die;
+    require($project_root_folder . '/' . $routes[$url]);
+    return;
 }
 
 // Handle match with wildcard items;
