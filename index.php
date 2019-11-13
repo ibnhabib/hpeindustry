@@ -1,40 +1,55 @@
-<?php include_once('includes/common.php') ;?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome To HPE Industry</title>
-    <link rel="stylesheet" href="/css/app.css">
-</head>
-<body>
-    
-    <?php include_once($project_root_folder.'/includes/upper_band.php') ;?>
+<?php
+$routes = [
+    '/'                 =>      '/views/home.php',
+    '/products/{product}'   =>  '/views/product.php',
+    '/happy/snappy'            =>      '/views/happy.php'
+];
 
-    <!-- Navigation Bar -->
-    <?php include_once($project_root_folder.'/includes/navigation.php') ;?>
-    
-    <!-- First Section (change name later) -->
-    <?php include_once($project_root_folder.'/includes/hero.php') ;?>
-    
-    <!-- Products and services -->
-    <section class="section has-little-padding">
-        <div class="container">
-            <div class="columns">
-                <div class="column is-8">
-                    <!-- Products -->
-                    <?php include_once($project_root_folder.'/includes/products.php') ;?>
-                </div>
-                <div class="column is-4">
-                    <!-- Services -->
-                    <?php include_once($project_root_folder.'/includes/services.php') ;?>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
+// Get URL from server
+$url = $_SERVER['REQUEST_URI'];
 
-</body>
-<script src="js/app.js"></script>
-</html>
+// Trim Trailing slash
+$url = '/' . trim($url, '/');
+
+echo "URL: $url </br><hr>";
+
+// Handle basic case where url is exactly the same as in routes
+// (and make sure the url itself doesn't contain brackets {} so it doesn't match with wildcard keys)
+
+if (array_key_exists($url, $routes) && !strpos($url,'{')) {
+    echo "you'll be directed to page $routes[$url]";
+    die;
+}
+
+// Handle match with wildcard items;
+// '/products/{products}' should match with 'products/festo'
+
+foreach ($routes as $route => $destination) {
+    if (strpos($route,'{') && strpos($route,'}')) {
+        if (match_route_with_url($route, $url)) {
+            echo "you'll be directed to page $destination";
+            die;
+        }
+    }
+}
+
+
+echo "sorry, page doesn't exist";
+
+// This function will match a wildcard route like '/products/{product}' 
+// with urls like '/products/festo' and return festo or false if no match
+
+function match_route_with_url($route, $url) {
+	
+	// first, turn route '/products/{product}' into a pattern: '\/products/(\w+)';
+	$pattern = preg_replace("/\/(\w+)\/{(\w+)}/", '\\/$1\\/(\w+)', $route);
+	
+	// Then, see if it matches $url;
+	preg_match("/$pattern/", $url, $matches);
+	
+	if (count($matches) > 0){
+		return end($matches);
+	}
+	return false;
+	
+}
