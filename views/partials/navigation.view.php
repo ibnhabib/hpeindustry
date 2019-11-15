@@ -41,10 +41,10 @@
                 <a class="navbar-item" href="/products/autonics">
                   Autonics
                 </a>
-                <a class="navbar-item">
-                 Omex 
+                <a class="navbar-item" href="/products/comex">
+                 Comex 
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href="/products/finder">
                   Finder
                 </a>
                 <a class="navbar-item">
