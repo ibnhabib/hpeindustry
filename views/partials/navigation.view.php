@@ -47,10 +47,10 @@
                 <a class="navbar-item" href="/products/finder">
                   Finder
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href="/products/infinity">
                   Infinity
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href="/products/jorc">
                   Jorc
                 </a>
                 <a class="navbar-item">
