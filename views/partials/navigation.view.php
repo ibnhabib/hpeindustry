@@ -59,8 +59,8 @@
                 <a class="navbar-item" href="/products/mm-rotork">
                   M&M Rotork 
                 </a>
-                <a class="navbar-item">
-                  Omi
+                <a class="navbar-item" href="/products/omi">
+                  OMI
                 </a>
                 <a class="navbar-item">
                   Shiny
