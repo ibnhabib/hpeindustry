@@ -62,7 +62,7 @@
                 <a class="navbar-item" href="/products/omi">
                   OMI
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href="/products/shiny">
                   Shiny
                 </a>
 

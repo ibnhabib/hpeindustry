@@ -1,6 +1,6 @@
 <?php
     // First guard against non-listed products;
-    if (!in_array($product_key, ['festo','aignep','autonics','finder', 'comex', 'infinity', 'jorc','mei', 'mm-rotork','omi'])) {
+    if (!in_array($product_key, ['festo','aignep','autonics','finder', 'comex', 'infinity', 'jorc','mei', 'mm-rotork','omi','shiny'])) {
         die('Sorry, the product key' . $product_key  . ' is not listed yet');
     }
     
