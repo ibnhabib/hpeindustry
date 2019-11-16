@@ -53,11 +53,11 @@
                 <a class="navbar-item" href="/products/jorc">
                   Jorc
                 </a>
-                <a class="navbar-item">
-                  Mel
+                <a class="navbar-item" href="/products/mei">
+                  Mei
                 </a>
-                <a class="navbar-item">
-                  m&m
+                <a class="navbar-item" href="/products/mm-rotork">
+                  M&M Rotork 
                 </a>
                 <a class="navbar-item">
                   Omi
