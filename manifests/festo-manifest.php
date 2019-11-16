@@ -45,7 +45,7 @@ $manifest = [
     'title'=> 'Drives with slide', 
     ],
     [
-    'image'=> 'CDF354F3E72D4534B88A3E86B6819F5E.jpg' ,
+    'image'=> 'electrical_peripherals.jpg' ,
     'title'=> 'Electrical peripherals', 
     ],
     [
@@ -181,7 +181,7 @@ $manifest = [
     'title'=> 'Air blower nozzles LPZ', 
     ],
     [
-    'image'=> '8B3bIB3_IzLJ2HGWpoVaIHd5d-300x300.jpeg' ,
+    'image'=> 'air_reservoire_vzs.jpg' ,
     'title'=> 'Air Reservoir VZS', 
     ],
     [
