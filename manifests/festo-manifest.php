@@ -17,7 +17,7 @@ $manifest = [
     'title'=> 'Cartridge cylinder and multimount cylinder', 
     ],
     [
-    'image'=> 'AGTC_17691u_2_710px-300x300.jpg' ,
+    'image'=> 'AGTC_17691u_2_710px-600x600.jpg' ,
     'title'=> 'Clip fix tool AGTC', 
     ],
     [
@@ -153,7 +153,7 @@ $manifest = [
     'title'=> 'Universal valve terminals', 
     ],
     [
-    'image'=> 'VUVS-S_240px.jpg' ,
+    'image'=> 'VUVS.jpg' ,
     'title'=> 'Robust valves VUVS', 
     ],
     [
