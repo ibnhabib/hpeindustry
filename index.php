@@ -45,9 +45,8 @@ echo "sorry, page doesn't exist";
 function match_route_with_url($route, $url) {
 	
 	// first, turn route '/products/{product}' into a pattern: '\/products/(\w+)';
-	$pattern = preg_replace("/\/(\w+)\/{(\w+)}/", '\\/$1\\/(\w+)', $route);
-	
-	// Then, see if it matches $url;
+	$pattern = preg_replace("/\/(\w+)\/{(\w+)}/", '\\/$1\\/([\w-]+)', $route);
+    // Then, see if it matches $url;
 	preg_match("/$pattern/", $url, $matches);
 	
 	if (count($matches) > 0){

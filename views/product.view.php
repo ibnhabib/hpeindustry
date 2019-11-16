@@ -1,11 +1,14 @@
 <?php
     // First guard against non-listed products;
-    if (!in_array($product_key, ['festo','aignep','autonics','finder', 'comex', 'infinity', 'jorc'])) {
+    if (!in_array($product_key, ['festo','aignep','autonics','finder', 'comex', 'infinity', 'jorc','mei', 'mm-rotork'])) {
         die('Sorry, the product key' . $product_key  . ' is not listed yet');
     }
     
+    // Include product manifest (has product name, list of parts, and product description)
+    @include_once($project_root_folder . "/manifests/$product_key-manifest.php");
+
     // Set Variables for page
-    $product_name = ucfirst($product_key);
+    $product_name = isset($official_product_name) ? $official_product_name : ucfirst($product_key);
     $page_title = 'HPE Industry Products - ' . $product_name ;
     $css = '/css/app.css';
     $script = 'js/app.js';
@@ -52,8 +55,6 @@
     <section class="section">
         <div class="container">
     <?php
-    // List of partnames and filenames
-    @include_once($project_root_folder . "/manifests/$product_key-manifest.php");
     $columns = 6;
     $column_class = 'is-2'; // 4 columns, 12/6 = 2
 
