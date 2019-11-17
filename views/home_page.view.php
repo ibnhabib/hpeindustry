@@ -13,7 +13,7 @@
     <?php include_once($project_root_folder.'/views/partials/navigation.view.php') ;?>
     
     <!-- First Section (change name later) -->
-    <?php include_once($project_root_folder.'/views/partials/hero.view.php') ;?>
+    <?php include_once($project_root_folder.'/views/partials/homepage/hero.view.php') ;?>
     
     <!-- Products and services -->
     <section class="section has-little-padding">
@@ -21,11 +21,11 @@
             <div class="columns">
                 <div class="column is-8">
                     <!-- Products -->
-                    <?php include_once($project_root_folder.'/views/partials/products.view.php') ;?> 
+                    <?php include_once($project_root_folder.'/views/partials/homepage/products.view.php') ;?> 
                 </div>
                 <div class="column is-4">
                     <!-- Services -->
-                    <?php include_once($project_root_folder.'/views/partials/services.view.php') ;?>.view
+                    <?php include_once($project_root_folder.'/views/partials/homepage/services.view.php') ;?>
                     
                 </div>
             </div>
