@@ -7,7 +7,7 @@
     </div>
 
     <div class="column is-10">
-        <h3 class="has-padding-bottom is-size-5 has-padding-top">Sales and Services</h3>
+        <h3 class=" is-size-5 has-padding-top">Sales and Services</h3>
         <p>We provides the best industrial automation solutions and technical support through our highly experienced sales team. </p>
     </div>
 </div>
@@ -18,7 +18,7 @@
     </div>
 
     <div class="column is-10">
-        <h3 class="has-padding-bottom is-size-5 has-padding-top">Solution Sales</h3>
+        <h3 class=" is-size-5 has-padding-top">Solution Sales</h3>
         <p> With a wide variety of products, we help customers raise productivity by providing alround customized solutions <a href="/services">read more</a> </p>
     </div>
 </div>
@@ -30,7 +30,7 @@
     </div>
 
     <div class="column is-10">
-        <h3 class="has-padding-bottom is-size-5 has-padding-top">Compressed Air Installation</h3>
+        <h3 class=" is-size-5 has-padding-top">Compressed Air Installation</h3>
         <p>Infinity piping is a high performance aluminum piping system that is easy to install and simple to extend or modify.</p>
     </div>
 </div>
@@ -41,7 +41,7 @@
     </div>
 
     <div class="column is-10">
-        <h3 class="has-padding-bottom is-size-5 has-padding-top">Maintenance & Field Work</h3>
+        <h3 class=" is-size-5 has-padding-top">Maintenance & Field Work</h3>
         <p>We provide field support and services for large scale projects within a wide range of industries. With a vast range of products including aluminum piping.</p>
     </div>
 </div>
@@ -52,7 +52,7 @@
     </div>
 
     <div class="column is-10">
-        <h3 class="has-padding-bottom is-size-5 has-padding-top">Industrial Automation</h3>
+        <h3 class=" is-size-5 has-padding-top">Industrial Automation</h3>
         <p> With a wide variety of products, we help customers raise productivity by providing alround solutions which are customized to meet requirements, budget and environments.</p>
     </div>
 </div>
