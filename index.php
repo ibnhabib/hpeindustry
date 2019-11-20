@@ -4,6 +4,7 @@ $routes = [
     '/products'             =>  '/views/products_home.view.php',
     '/services'             =>  '/views/services.view.php',
     '/products/{product}'   =>  '/views/product.view.php',
+    '/contact'              =>  '/views/contact.view.php'
 ];
 
 //intialize

@@ -74,7 +74,7 @@
       
             
             <div class="navbar-item" >
-              <a href="" class="button is-size-6 is-primary">Contact US</a>
+              <a href="/contact" class="button is-size-6 is-primary">Contact US</a>
             </div>
 
           

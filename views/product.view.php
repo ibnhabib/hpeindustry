@@ -20,7 +20,7 @@
     <!-- Head & Metadata -->
     <?php include_once($project_root_folder.'/views/partials/head.view.php');?>
 
-    <!-- Upper Bar -->
+    <!-- Upper Band -->
     <?php include_once($project_root_folder.'/views/partials/upper_band.view.php') ;?>
 
     <!-- Navigation Bar -->
