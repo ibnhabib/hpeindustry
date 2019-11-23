@@ -12556,6 +12556,12 @@ label.panel-block:hover {
   padding: 1.5em;
 }
 
+.customer_logo {
+  display: inline-block;
+  margin-right: 1em;
+  width: 80px;
+}
+
 h1,
 h3,
 h5 {

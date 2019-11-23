@@ -26,7 +26,3 @@ $products=[
 ?>
 <div style="width:30%">&nbsp;</div> <!-- to prevent the last button to be on the right -->
 </div>
-<hr>
-
-<h2 class="title is-size-3">Our Customers</h2>
-<p class="pull-quote is-size-5">We Are Trusted by Ghana's Top Companies</p>

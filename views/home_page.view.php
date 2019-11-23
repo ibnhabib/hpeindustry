@@ -32,6 +32,31 @@ $script = 'js/app.js';
     </div>
 </section>
 
+<!-- Customers -->
+
+<section class="section">
+    <div class="container">
+        <h2 class="title is-size-3">Our Customers</h2>
+        <p class="pull-quote is-size-5">We Are Trusted by Ghana's Top Companies</p>
+        <?php
+        $customer_logos = scandir($project_root_folder.'/img/customers');
+        foreach ($customer_logos as $key => $logo) { ;
+        
+            if ($logo == "." || $logo == "..") { // skip the directories "." and ".."
+                continue;
+            }
+        ?>
+
+        <div class="customer_logo">
+            <img src="/img/customers/<?= $logo ?>" >
+        </div>
+
+        <?php 
+        }
+        ?>
+    </div>
+</section>
+
 <?php include_once($project_root_folder . '/views/partials/footer.view.php') ; ?>
 
 </html>
