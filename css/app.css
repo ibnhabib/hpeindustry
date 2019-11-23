@@ -12542,6 +12542,16 @@ label.panel-block:hover {
   color: white;
 }
 
+.hpe-blurb {
+  padding: 1.5em;
+}
+
+.hero-background {
+  background-color: #3d9ec3;
+  background-image: url("/img/slides/blue-festo-jose-joao.jpg");
+  background-size: cover;
+}
+
 .pull-quote {
   padding: 1em 0;
   border-bottom: 1px dashed #035199;
