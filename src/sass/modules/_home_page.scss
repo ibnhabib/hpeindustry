@@ -1,0 +1,42 @@
+// Hero
+.has-background-turquoise{
+    background-color: $turquoise;
+    .title{
+        color:white;
+    }
+    .subtitle{
+        color:white;
+    }
+}
+
+.pull-quote{
+    padding:1em 0;
+    max-width:750px;
+}
+
+// Services
+
+
+.service-icon {
+    max-width: 50px;
+    margin-left: 1.5em;
+}
+  
+
+.service-description {
+    line-height: 2;
+  }
+  
+  .service-title {
+    font-weight: bolder;
+    font-size: larger;
+  }
+  
+
+
+// Customers
+.customer_logo{
+    display: inline-block;
+    margin-right:1em; 
+    width:80px;
+}

@@ -12455,11 +12455,6 @@ label.panel-block:hover {
   width: 100%;
 }
 
-.pull-quote {
-  background: aliceblue;
-  padding: 1em 0.5em;
-}
-
 #outer-cog {
   -webkit-transform-origin: center;
           transform-origin: center;
@@ -12547,6 +12542,31 @@ label.panel-block:hover {
   color: white;
 }
 
+.pull-quote {
+  padding: 1em 0;
+  max-width: 750px;
+}
+
+.service-icon {
+  max-width: 50px;
+  margin-left: 1.5em;
+}
+
+.service-description {
+  line-height: 2;
+}
+
+.service-title {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.customer_logo {
+  display: inline-block;
+  margin-right: 1em;
+  width: 80px;
+}
+
 .card-content {
   min-height: 90px;
   padding: 0.5em;
@@ -12554,12 +12574,6 @@ label.panel-block:hover {
 
 .card-image {
   padding: 1.5em;
-}
-
-.customer_logo {
-  display: inline-block;
-  margin-right: 1em;
-  width: 80px;
 }
 
 h1,
