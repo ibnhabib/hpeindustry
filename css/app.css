@@ -12544,7 +12544,10 @@ label.panel-block:hover {
 
 .pull-quote {
   padding: 1em 0;
-  max-width: 750px;
+  border-bottom: 1px dashed #035199;
+  border-top: 1px dashed #035199;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
 }
 
 .service-icon {
