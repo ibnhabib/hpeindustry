@@ -88,5 +88,7 @@
 
 
 </body>
-<!-- <script src="js/app.js"></script> -->
+
+<?php include_once($project_root_folder . '/views/partials/footer.view.php') ; ?>
+
 </html>

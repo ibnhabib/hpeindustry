@@ -93,7 +93,13 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
+// Mobile Menu Clicking Behavior
+var burger = document.getElementsByClassName('navbar-burger')[0];
+var menu = document.getElementsByClassName('navbar-menu')[0];
+burger.addEventListener('click', function (e) {
+  burger.classList.toggle('is-active');
+  menu.classList.toggle('is-active');
+});
 
 /***/ }),
 

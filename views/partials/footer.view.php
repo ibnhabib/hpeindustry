@@ -9,4 +9,4 @@
     </div>
 </footer>
 </body>
-<script src="<?=$script?>"></script>
+<script src="/<?=$script?>"></script>

@@ -4,3 +4,6 @@ h1, h3, h5{
         color:$primary;
     }
 }
+p+p, p+.title{
+    margin-top:1em;
+}

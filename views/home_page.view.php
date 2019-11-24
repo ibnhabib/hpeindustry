@@ -12,7 +12,7 @@ $script = 'js/app.js';
 <!-- Navigation Bar -->
 <?php include_once($project_root_folder . '/views/partials/navigation.view.php'); ?>
 
-<!-- First Section (change name later) -->
+<!-- Hero -->
 <?php include_once($project_root_folder . '/views/partials/homepage/hero.view.php'); ?>
 
 <!-- Products and services -->
