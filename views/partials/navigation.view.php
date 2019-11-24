@@ -56,7 +56,7 @@
                 ?>
               </div>
             </div>
-            <a class="navbar-item">
+            <a class="navbar-item" href="/services">
               Services
             </a>
       

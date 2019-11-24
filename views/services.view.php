@@ -51,3 +51,7 @@ $script = 'js/app.js';
         </div>
     </div>
 </section>
+
+<!-- Footer -->
+<?php include_once($project_root_folder . '/views/partials/footer.view.php'); ?>
+
