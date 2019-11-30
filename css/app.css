@@ -12455,6 +12455,19 @@ label.panel-block:hover {
   width: 100%;
 }
 
+.level-icon {
+  margin-right: 0.5em;
+  margin-top: 6px;
+}
+
+.hpe_band {
+  color: #b5e5fb;
+}
+
+.hpe_band a {
+  color: #b5e5fb;
+}
+
 #outer-cog {
   -webkit-transform-origin: center;
           transform-origin: center;
