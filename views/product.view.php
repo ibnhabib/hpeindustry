@@ -27,7 +27,7 @@
     <?php include_once($project_root_folder.'/views/partials/navigation.view.php') ;?>
 
     <!-- Hero -->
-    <section class="hero is-primary is-strong">
+    <section class="hero is-strong">
         <div class="hero-body">
             <div class="container">
             <h1 class="title">
@@ -54,6 +54,7 @@
 
     <section class="section">
         <div class="container">
+            <div class="products-grid">
     <?php
     $columns = 6;
     $column_class = 'is-2'; // 4 columns, 12/6 = 2
@@ -83,6 +84,7 @@
     endforeach;
     ?>
 </div> <!-- last .columns -->
+</div> <!-- products-grid -->
 </div> <!-- .container -->
 </section>
 
