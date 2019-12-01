@@ -1,9 +1,9 @@
 <?php
+$official_product_name = "Autonics";
+$official_product_description="Autonics is a leading provider of automation solutions from South Korea. It develops and manufactures a wide range of automation products which are marketed worldwide. Its core products include various sensors, controllers, motion devices, measuring equipment, laser marking systems, connection equipment and more."; 
+$official_product_logo = "autonics.jpg";
+$official_product_website = "https://www.autonics.com/main";
 $manifest = [
-    [
-    'image'=> '854c8b63-196b-4c1e-9166-dbecca16e466-300x300.png' ,
-    'title'=> 'AiS Series 2-Phase Closed Loop Stepper Motor System', 
-    ],
     [
     'image'=> 'phpThumb_generated_thumbnailjpg-3-300x300.jpeg' ,
     'title'=> 'Ø22/25 DOME TYPE Pilot lamps  – L2RR-L1 Series', 

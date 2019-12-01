@@ -1,4 +1,8 @@
 <?php
+$official_product_name = "Aignep";
+$official_product_description="Aignep is a leader in the production of fittings, solenoid valves and cylinders. Based in Italy, it exports its products to more than 90 countries in the world."; 
+$official_product_logo = "aignep.svg";
+$official_product_website = "https://www.aignep.com/eng";
 $manifest = [
     [
     'image'=> 'SOQUETE-COM-ESPIGAO-PARA-MANGUEIRA-DE-BORRACHA-fullWidthDesktop.jpg' ,
@@ -183,10 +187,6 @@ $manifest = [
     [
     'image'=> 'REGOLATORE-UNIDIREZIONALE-ORIENTABILE-PER-CILINDRO-UNIVERSAL-SHORT-REGOLAZIONE-A-CACCIAVITE-fullWidthDesktop-300x300.jpg' ,
     'title'=> '50901 ORIENTING FLOW REGULATOR FOR CYLINDER “UNIVERSAL SHORT”', 
-    ],
-    [
-    'image'=> 'REGOLATORE-UNIDIREZIONALE-ORIENTABILE-PER-CILINDRO-UNIVERSAL-SHORT-CON-SPINTORE-NERO-REGOLAZIONE-A-CACCIAVITE-fullWidthDesktop-300x300.jpg' ,
-    'title'=> '50901N ORIENTING FLOW REGULATOR FOR CYLINDER “UNIVERSAL SHORT” WITH BLACK RELEASE', 
     ],
     [
     'image'=> 'VITE-CAVA-TRIPLA-fullWidthDesktop-300x300.jpg' ,

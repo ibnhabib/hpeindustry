@@ -1,13 +1,12 @@
 <?php
 $official_product_name="M&M Rotork";
+$official_product_description="Rotork is the market leading actuator manufacturer and flow control company that operates in any market where the flow of gases or liquids needs to be controlled. "; 
+$official_product_logo = "mm-rotork.jpg";
+$official_product_website = "";
 $manifest = [
     [
     'image'=> 'alt_45e80ad6a50b9-1.jpg' ,
     'title'=> 'M&M ROTORK – Automatic drain valve assembly – 888120-131', 
-    ],
-    [
-    'image'=> 'alt_45e81f3542f6d.gif' ,
-    'title'=> 'M&M ROTORK – COILS FOR SOLENOID VALVES – CE 2000 TO DIN 46244', 
     ],
     [
     'image'=> 'alt_45e8206a5aa6b-1.gif' ,
@@ -33,11 +32,7 @@ $manifest = [
     'image'=> 'alt_4680dd6dcc882.gif' ,
     'title'=> 'M&M ROTORK – UL APPROVED COILS FOR SOLENOID VALVES – 700R TO DIN 43650A', 
     ],
-    [
-    'image'=> 'alt_4680dd4e62854.gif' ,
-    'title'=> 'M&M ROTORK – UL APPROVED COILS FOR SOLENOID VALVES – UL 200R TO DIN 46244', 
-    ],
-    [
+   [
     'image'=> 'sol.gif' ,
     'title'=> 'ROTORK M&M – GENERAL PURPOSE SOLENOID VALVES', 
     ],

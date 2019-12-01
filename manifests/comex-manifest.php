@@ -1,4 +1,8 @@
 <?php
+$official_product_name = "Comex";
+$official_product_description="Comex is a leading company in the distribution of air pneumatic components, well-known and operating worldwide"; 
+$official_product_logo = "comex.png";
+$official_product_website = "https://www.comexsrl.it/en";
 $manifest = [
     [
     'image'=> 'comex149.jpg' ,

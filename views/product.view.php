@@ -26,29 +26,32 @@
     <!-- Navigation Bar -->
     <?php include_once($project_root_folder.'/views/partials/navigation.view.php') ;?>
 
-    <!-- Hero -->
-    <section class="hero is-strong">
-        <div class="hero-body">
-            <div class="container">
-            <h1 class="title">
-               <?= $product_name ?>  
-            </h1>
-            <h2 class="subtitle">
-            </h2>
-            </div>
-        </div>
-    </section>
     <!-- breadcrumbs -->
-
     <section class="section">
         <div class="container">
             <nav class="breadcrumb" aria-label="breadcrumbs">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
+                <li><a href="/">Products</a></li>
                 <li class="is-active"><a href="#" aria-current="page"><?= $product_name  ?> </a></li>
             </ul>
             </nav>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-4">
+                    <img src="/img/product_logos/<?=$official_product_logo?>" alt="">
+                </div>
+                <div class="column is-7 is-offset-1">
+                    <p><?=$official_product_description?></p>
+                    <p>HPE Industries stocks a wide variety of <?=$official_product_name?> products, as per the list below</p>
+                    <p>
+                        <a href="<?=$official_product_website?>" class="button is-small">Visit <?=$official_product_name?>'s website</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -78,8 +81,6 @@
         </div>
     
     
-        <!-- <img src="/img/products/festo/<?= $filenames[$key] ;?>">
-        <p><?= $title ;?></p> -->
     <?php 
     endforeach;
     ?>

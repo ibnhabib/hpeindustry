@@ -1,4 +1,8 @@
 <?php
+$official_product_name = "Infinity";
+$official_product_description="Infinity Pipe Systems is a high performing complete aluminium pipe system that is easy to install and simple to extend or modify. The all-metal system has been specifically designed with energy savings in mind and is suitable for compressed air, inert gases and vacuum."; 
+$official_product_logo = "infinity.png";
+$official_product_website = "https://infinitypipesystems.com.au/";
 $manifest = [
     [
     'image'=> 'VALVULA-BORBOLETA-PARAFUSOS-PORCAS-ARRUELAS-fullWidthDesktop-300x300.jpg' ,
