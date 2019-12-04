@@ -24,8 +24,16 @@ foreach ($services as $title => $description) {
         </div>
     <?php
 }
-
+?>
+        <div class="columns">
+            <div class="column is-9 is-offset-3">
+                <a href="/services" class="button">More About Our Services</a>
+            </div>
+        </div>
+<?php
     // Convert from "This is a phrase" to "this-is-a-phrase"
+    // Used to convert Title to icon filename
+
     function kebab($title){
         $words = explode(' ', $title);
         $kebab = "";

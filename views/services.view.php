@@ -1,4 +1,4 @@
-<<?php
+<?php
 $page_title = 'Welcome to HPE Industry';
 $css = '/css/app.css';
 $script = 'js/app.js';

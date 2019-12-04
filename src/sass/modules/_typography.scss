@@ -7,3 +7,13 @@ h1, h3, h5{
 p+p, p+.title{
     margin-top:1em;
 }
+
+p.lead{
+    font-size: 1.4em;
+    font-weight: medium;
+}
+
+p.caption{
+    font-size:0.9em;
+    color:$primary;
+}

@@ -20,22 +20,26 @@ $script = 'js/app.js';
         <div class="columns">
             <div class="column is-7">
                 <h3 class="title is-3">
-                    About Us
+                    About HPE Industry LTD.
                 </h3>
-                <p>Established in April 2005, H.P.E. INDUSTRY LTD. is a well stocked, full service hydraulic, pneumatic and electronics- company that offers a wide range of hydraulics, pneumatics and electronic equipment, as well as air-filtration, drives, instrumentation, valves etc. We are authorized distributors and service providers for FESTO, AIGNEP, AUTONICS, COMEX, FINDER, INFINITY, JORC, M&M ROTORK, MEI, OMI, and SHINY products in Ghana. We stock and provide only superior products from trusted names!</p>
+                <p class="lead">Established in April 2005, we are a well stocked, full service hydraulic, pneumatic and electronics- company that offers a wide range of hydraulics, pneumatics and electronic equipment, as well as air-filtration, drives, instrumentation, valves etc. We are authorized distributors and service providers for FESTO, AIGNEP, AUTONICS, COMEX, FINDER, INFINITY, JORC, M&M ROTORK, MEI, OMI, and SHINY products in Ghana. We stock and provide only superior products from trusted names!</p>
 
-                <p>Our technicians and factory trained engineers (who work with us since the very beginning of H.P.E. INDUSTRY LTD.), are experienced experts (certified engineers), in their respective mechanical, electromechanical, and industrial engineering fields.</p>
-
-                <p>
+                <p class="lead">
                     Because of this, H.P.E. INDUSTRY LTD. has earned a reputation of being among the best in the industry, a large part of which is due to the fact that we have a genuine interest in our customer’s success.
                 </p>
             </div>
-            <div class="column is-5"><img src="/img/festo_technicians.jpg" alt=""></div>
+            <div class="column is-5"><img src="/img/festo_technicians.jpg" alt="">
+                <p class="caption">Our technicians and factory trained engineers (who work with us since the very beginning of H.P.E. INDUSTRY LTD.), are experienced experts (certified engineers), in their respective mechanical, electromechanical, and industrial engineering fields.</p>
+            </div>
         </div>
         <hr>
         <div class="columns">
             <div class="column">
+                <img src="/img/pipes-4.jpg">
                 <img src="/img/pipes-1.jpg">
+            </div>
+            <div class="column">
+                <h3 class="title">Service</h3>
                 <p>
                     Our experienced and service-oriented team in our head office in Accra, has the complete understanding of all the components and specific requirements.
                 </p>
@@ -43,8 +47,6 @@ $script = 'js/app.js';
                 <p>
                     With a commitment to swift, reliable and responsible service, we can deliver all these products, allowing your production to stay operational at all times.
                 </p>
-            </div>
-            <div class="column">
                 <p>
                     Whether you work in mining, agriculture, food processing or other industry.
                 </p>
@@ -71,6 +73,8 @@ $script = 'js/app.js';
                 <p>
                     Our up-to-date technology and advanced training assures you get the very best product available.
                 </p>
+            </div>
+            <div class="column">
                 <h3 class="title">
                     Core Values
                 </h3>
@@ -78,8 +82,6 @@ $script = 'js/app.js';
                 <p>
                     Safety, integrity and responsibility in everything we do Highly experienced and competent Service Team. Fast & friendly support, attention to every detail
                 </p>
-            </div>
-            <div class="column">
 
                 <h3 class="title">
                     Customer Service
@@ -96,8 +98,20 @@ $script = 'js/app.js';
                 <p>
                     We expect nothing less than complete customer satisfaction.
                 </p>
-
-
+                <hr>
+                <h3 class="title">Get in Touch</h3>
+                <div class="columns">
+                    <div class="column">
+                        <p>
+                            <a href="/contact" class="button button-large is-primary">Tell Us About Your Needs</a>
+                        </p>
+                    </div>
+                    <div class="column">
+                        <p>
+                            <img src="/img/services_icons/maintenance-and-field-work.png" width="80px" alt="">
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
 
