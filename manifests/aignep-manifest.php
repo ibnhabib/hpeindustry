@@ -5,10 +5,6 @@ $official_product_logo = "aignep.svg";
 $official_product_website = "https://www.aignep.com/eng";
 $manifest = [
     [
-    'image'=> 'SOQUETE-COM-ESPIGAO-PARA-MANGUEIRA-DE-BORRACHA-fullWidthDesktop.jpg' ,
-    'title'=> '100 Series – 105 – SOCKET WITH REST FOR RUBBER HOSE', 
-    ],
-    [
     'image'=> 'PLUG-COM-ROSCA-MACHO-fullWidthDesktop.jpg' ,
     'title'=> '100 Series – 201 MALE PLUG', 
     ],
