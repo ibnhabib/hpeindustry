@@ -1,10 +1,13 @@
 <!-- Footer -->
 <footer style="margin-top:2em;" class="footer">
-    <div class="content has-text-centered">
-        <p>
-            HPE Ghana LTD ® <?php echo date("Y"); ?>
-        </p>
+    <div class="container">
+        <nav class="level">
+            <div class="level-item">® <?php echo date("Y"); ?></div>
+            <div class="level-item"><img width="250px" src="/img/hpe-logo-inverse.png" alt=""></div>
+            <div class="level-item">+233 (0) 302 235 187<br>sales@hpeindustry.com</div>
+        </nav>
+        
     </div>
 </footer>
 </body>
-<script src="/<?=$script?>"></script>
+<script src="/<?= $script ?>"></script>

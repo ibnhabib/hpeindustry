@@ -21,7 +21,7 @@ $script = 'js/app.js';
         
         <h3 class="title is-size-5">Sales and Services</h3>
         
-        <p>HPE INDUSTRY LTD. provides the best industrial automation solutions and technical support through our highly experienced sales team. We are available to help you at any time in order to achieve your total satisfaction.</p>
+        <p class="lead">HPE INDUSTRY LTD. provides the best industrial automation solutions and technical support through our highly experienced sales team. We are available to help you at any time in order to achieve your total satisfaction.</p>
         
         <h3 class="title is-size-5 has-padding-top">Solution Sales</h3>
         <p> With a wide variety of products, we help customers raise productivity by providing alround solutions which are customized to meet requirements, budget and environments. We always strives to meet customer needs by constantly developing new products. We showcase our new products and listen to our customers.</p>
@@ -50,9 +50,39 @@ $script = 'js/app.js';
         
         <h3 class="title is-size-5">industrial automation</h3>
         <p>We are dedicated to providing ongoing support and industry solutions in electro-pneumatic, Industrial Automation with a highly cost Effective Solution products of Sensors.</p>
-        
+        <hr>
+                <div class="columns">
+                    <div class="column is-3">
+                        <p>
+                            <a href="/contact" class="button button-large is-primary">Get in Touch</a>
+                        </p>
+                    </div>
+                    <div class="column is-2">
+                        <p>
+                            <img src="/img/services_icons/compressed-air-installation.png" width="80px" alt="">
+                        </p>
+                    </div>
+                    <div class="column is-2">
+                        <p>
+                            <img src="/img/services_icons/industrial-automation.png" width="80px" alt="">
+                        </p>
+                    </div>
+                    <div class="column is-2">
+                        <p>
+                            <img src="/img/services_icons/maintenance-and-field-work.png" width="80px" alt="">
+                        </p>
+                    </div>
+                    <div class="column is-2">
+                        <p>
+                            <img src="/img/services_icons/sales-and-services.png" width="80px" alt="">
+                        </p>
+                    </div>
+                </div>
+
     </div>
     <div class="column is-4">
+        <img src="/img/pipes-6.jpg">
+        <img src="/img/pipes-5.jpg">
         <img src="/img/pipes-2.jpg">
         <img src="/img/pipes-3.jpg">
     </div>
