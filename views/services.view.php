@@ -14,6 +14,9 @@ $script = 'js/app.js';
 
 <section class="section">
     <div class="container">
+    <div class="columns">
+        <div class="column is-8">
+        
         <h2 class="title is-size-3">Services</h2>
         
         <h3 class="title is-size-5">Sales and Services</h3>
@@ -48,7 +51,13 @@ $script = 'js/app.js';
         <h3 class="title is-size-5">industrial automation</h3>
         <p>We are dedicated to providing ongoing support and industry solutions in electro-pneumatic, Industrial Automation with a highly cost Effective Solution products of Sensors.</p>
         
-        </div>
+    </div>
+    <div class="column is-4">
+        <img src="/img/pipes-2.jpg">
+        <img src="/img/pipes-3.jpg">
+    </div>
+</div>
+    </div>
     </div>
 </section>
 
