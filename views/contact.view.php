@@ -15,27 +15,40 @@ $script = 'js/app.js';
 
 <div class="section">
     <div class="container">
-        <h2 class="title is-1">Contact Us</h1>
-        <p class="subtitle is-3">There are several ways to reach us</p>
-        <hr>
         <div class="columns">
-            <div class="column is-6">
-                <h3 class="title ">By Phone</h3>
+            <div class="column">
+            <h2 class="title is-1">Contact Us</h1>
+        <p class="subtitle is-4">There are several ways to reach us. <br>Get in touch with us for a free consultation</p>
+        <hr>
+        <h3 class="title ">By Phone</h3>
+                <p class="size-is-3">
+                <strong>Landline:</strong>+233 (0) 243 366 718<br><strong>Mobile:</strong> 233 (0) 302 235 187 <br> <strong>Fax:</strong> +233 (0) 302 235 109 
+                </p>
                 <h3 class="title ">By Email</h3>
+                <p class="size-is-3">
+                sales@hpeindustry.com
+                </p>
                 <h3 class="title ">Facebook Page</h3>
+                <a class="button" href="https://web.facebook.com/hpeindustry/">Visit our Facebook page</a>
+               
             </div>
-            <div class="column is-6" style="height:400px">
-            <h3 class="title">Our Location</h3>
+            <div class="column">
+            <img src="/img/pipes-7.jpg" alt="">
+            <img src="/img/pipes-8.jpg" style="height:320px" alt="">
+            </div>
+        </div>
+
+        <hr>
+        <h3 class="title">Or You Can Visit Us</h3>
+            
             <iframe 
-                style="min-height: 99%; width: 100%;" 
+                style="min-height: 300px; width: 100%; background-color:#eaeaea" 
                 frameborder="0" 
                 scrolling="no" 
                 marginheight="0"
                 marginwidth="0" 
                 src="https://maps.google.com/maps?f=q&amp;source=s_d&amp;hl=en&amp;saddr=5.583324,-0.224348&amp;z=15&amp;output=embed">
             </iframe>
-            </div>
-        </div>
     </div>
 </div>
 
