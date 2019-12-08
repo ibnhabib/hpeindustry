@@ -7,7 +7,7 @@
                         <?php include_once($project_root_folder.'/img/icons/telephone.svg') ?>
                     </div>
                     <div>
-                        +233 (0) 302 235 187
+                        +233 (0) 302 235 108
                     </div> 
                 </div>
                 <div class="level-item">

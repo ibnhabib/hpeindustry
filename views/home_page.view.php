@@ -24,6 +24,10 @@ $script = 'js/app.js';
                 <?php include_once($project_root_folder . '/views/partials/homepage/products.view.php'); ?>
             </div>
             <div class="column is-4">
+                <!-- Parnership Button -->
+                <div class="is-pulled-right">
+                <a href="/img/Festo-HPE-Official-Partnership.pdf"><img src ="/img/official-partnership-button.png" width="360px" style="margin-bottom:1em"></a>
+                </div>
                 <!-- Services -->
                 <?php include_once($project_root_folder . '/views/partials/homepage/services.view.php'); ?>
 

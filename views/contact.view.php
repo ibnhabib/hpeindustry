@@ -22,7 +22,7 @@ $script = 'js/app.js';
         <hr>
         <h3 class="title ">By Phone</h3>
                 <p class="size-is-3">
-                <strong>Landline:</strong>+233 (0) 243 366 718<br><strong>Mobile:</strong> 233 (0) 302 235 187 <br> <strong>Fax:</strong> +233 (0) 302 235 109 
+                <strong>Mobile / Whatsapp</strong>+233 (0) 243 366 718<br><strong>Landline: </strong> 233 (0) 302 235 108<br> <strong>Fax:</strong> +233 (0) 302 235 109 
                 </p>
                 <h3 class="title ">By Email</h3>
                 <p class="size-is-3">
