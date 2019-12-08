@@ -12468,6 +12468,26 @@ label.panel-block:hover {
   color: #b5e5fb;
 }
 
+.logo-cogs {
+  width: 75px;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo-cogs {
+    width: 100px;
+  }
+}
+
+.logo-text {
+  width: 234px;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo-text {
+    width: 293px;
+  }
+}
+
 #outer-cog {
   -webkit-transform-origin: center;
           transform-origin: center;

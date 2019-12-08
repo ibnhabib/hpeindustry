@@ -1,3 +1,17 @@
+// Dimensions
+.logo-cogs{
+    width:75px;
+    @media only screen and (min-width: 768px) {
+        width:100px;
+    }
+}
+.logo-text{
+    width: 234px;
+    @media only screen and (min-width: 768px) {
+        width:293px;
+    }
+}
+
 #outer-cog{
     transform-origin: center;
     animation:spin 35s linear infinite;
