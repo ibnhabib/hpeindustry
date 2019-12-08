@@ -4,7 +4,7 @@
         <nav class="level">
             <div class="level-item">® <?php echo date("Y"); ?></div>
             <div class="level-item"><img width="250px" src="/img/hpe-logo-inverse.png" alt=""></div>
-            <div class="level-item">+233 (0) 302 235 187<br>sales@hpeindustry.com</div>
+            <div class="level-item">+233 (0) 302 235 108<br>sales@hpeindustry.com</div>
         </nav>
         
     </div>
