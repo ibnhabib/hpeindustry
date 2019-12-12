@@ -25,7 +25,7 @@ $script = 'js/app.js';
             </div>
             <div class="column is-4">
                 <!-- Parnership Button -->
-                <div class="is-pulled-right">
+                <div>
                 <a href="/img/Festo-HPE-Official-Partnership.pdf"><img src ="/img/official-partnership-button.png" width="360px" style="margin-bottom:1em"></a>
                 </div>
                 <!-- Services -->
