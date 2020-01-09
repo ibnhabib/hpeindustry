@@ -99,6 +99,8 @@ $script = 'js/app.js';
                     We expect nothing less than complete customer satisfaction.
                 </p>
                 <hr>
+                <img src="/img/services-pc.jpg" alt="">
+
                 <h3 class="title">Get in Touch</h3>
                 <div class="columns">
                     <div class="column">

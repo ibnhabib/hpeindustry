@@ -34,7 +34,8 @@ $script = 'js/app.js';
             </div>
             <div class="column">
             <img src="/img/pipes-7.jpg" alt="">
-            <img src="/img/pipes-8.jpg" style="height:320px" alt="">
+            <img src="/img/festo-working-area.jpg" alt="">
+            <!-- <img src="/img/pipes-8.jpg" style="height:320px" alt=""> -->
             </div>
         </div>
 

@@ -6,10 +6,13 @@
                     <div class="level-icon">
                         <?php include_once($project_root_folder.'/img/icons/telephone.svg') ?>
                     </div>
-                    <div>
-                        +233 (0) 302 235 108
+                    <div class="level-icon">
+                        <?php include_once($project_root_folder.'/img/icons/ghanaflag.svg') ?>
                     </div> 
-                </div>
+                    <address>
+                        <a href="tel:+233302235108">+233 (0) 302 235 108</a>
+                    </address>
+                    </div>
                 <div class="level-item">
                     <div class="level-icon">
                         <?php include_once($project_root_folder.'/img/icons/email.svg') ?>

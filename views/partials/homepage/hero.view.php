@@ -16,7 +16,7 @@
 <?php 
 
 function random_slide(){
-  $slides= ['festo-jose-joao.jpg','festo-man-woman.jpg','festo-globe.jpg'];
+  $slides= ['festo-woman.jpg','festo-jose-joao.jpg','festo-man-woman.jpg','festo-globe.jpg'];
   return $slides[array_rand($slides)];;
 }
 
