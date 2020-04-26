@@ -48,6 +48,13 @@
                     <p><?=$official_product_description?></p>
                     <p>HPE Industries stocks a wide variety of <?=$official_product_name?> products, as per the list below</p>
                     <p>
+                        <?php 
+                            if (isset($official_product_catalogue)) {
+                        ?>
+                                <a href="/catalogues/<?=$official_product_catalogue?>" class="button is-small">Download Catalogue</a>
+                        <?php
+                            }
+                        ?>
                         <a href="<?=$official_product_website?>" class="button is-small">Visit <?=$official_product_name?>'s website</a>
                     </p>
                 </div>
