@@ -4,6 +4,12 @@ $official_product_description="Aignep is a leader in the production of fittings,
 $official_product_logo = "aignep.svg";
 $official_product_website = "https://www.aignep.com/eng";
 $official_product_catalogue="infinity_catalogue.pdf";
+$photo_sets = [
+        [
+            'title' => 'Infinity Pipes',
+            'photos' => [ 'test.jpg','test3.jpg' ]
+        ]
+    ];
 $manifest = [
     [
     'image'=> 'PLUG-COM-ROSCA-MACHO-fullWidthDesktop.jpg' ,

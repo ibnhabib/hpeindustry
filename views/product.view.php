@@ -38,6 +38,7 @@
         </div>
     </section>
 
+    <!-- Product Details -->
     <section class="section">
         <div class="container">
             <div class="columns">
@@ -61,6 +62,27 @@
             </div>
         </div>
     </section>
+
+    <!-- If Contains Photo Sets, Show Photosets -->
+    <?php
+        if (isset($photo_sets)) { ?>
+            <section>
+                <div class="container">
+                    <?php
+                        foreach ($photo_sets as $key => $photo_set) {
+                            echo $photo_set['title'];
+                            foreach ($photo_set['photos'] as $photo_key => $photo) {
+                                echo '</br>'. $photo;
+                            }
+                        }
+                    ?>
+                </div>
+            </section>     
+        <?php
+        } 
+    ?>
+
+    <!-- Products Thumbnails -->
 
     <section class="section">
         <div class="container">
