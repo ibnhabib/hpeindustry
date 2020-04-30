@@ -66,16 +66,17 @@
     <!-- If Contains Photo Sets, Show Photosets -->
     <?php
         if (isset($photo_sets)) { ?>
-            <section>
+            <section class="section">
                 <div class="container">
-                    <?php
-                        foreach ($photo_sets as $key => $photo_set) {
-                            echo $photo_set['title'];
-                            foreach ($photo_set['photos'] as $photo_key => $photo) {
-                                echo '</br>'. $photo;
+                        <?php
+                            foreach ($photo_sets as $key => $photo_set) {
+                                echo '<h2 class="title is-size-3">' . $photo_set['title'] . '</h2>';
+                                foreach ($photo_set['photos'] as $photo_key => $photo) {
+
+                                    echo '<img src="/img/infinity_pipes/'.$photo.'" style="height:175px; width:auto; margin-right:5px;margin-bottom:5px">';
+                                }
                             }
-                        }
-                    ?>
+                        ?>
                 </div>
             </section>     
         <?php
@@ -88,6 +89,7 @@
         <div class="container">
             <div class="products-grid">
     <?php
+    echo '<h2 class="title is-size-3">Available Items</h2>';
     $columns = 6;
     $column_class = 'is-2'; // 4 columns, 12/6 = 2
 

@@ -7,7 +7,17 @@ $official_product_catalogue="infinity_catalogue.pdf";
 $photo_sets = [
         [
             'title' => 'Infinity Pipes',
-            'photos' => [ 'test.jpg','test3.jpg' ]
+            'photos' => [ 'aignep_infinity_pipe_1.JPG',
+                          'aignep_infinity_pipe_2.JPG',
+                          'aignep_infinity_pipe_3.JPG',
+                          'aignep_infinity_pipe_4.JPG',
+                          'aignep_infinity_pipe_5.JPG',
+                          'aignep_infinity_pipe_6.JPG',
+                          'aignep_infinity_pipe_7.JPG',
+                          'aignep_infinity_pipe_8.JPG',
+                          'aignep_infinity_pipe_9.JPG',
+                          'aignep_infinity_pipe_10.JPG',
+                           ]
         ]
     ];
 $manifest = [
