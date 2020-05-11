@@ -26,7 +26,8 @@ $script = 'js/app.js';
             <div class="column is-4">
                 <!-- Parnership Button -->
                 <div>
-                <a href="/img/Festo-HPE-Official-Partnership.pdf"><img src ="/img/official-partnership-button.png" width="360px" style="margin-bottom:1em"></a>
+                <!-- <a href="/img/Festo-HPE-Official-Partnership.pdf"><img src ="/img/official-partnership-button.png" width="360px" style="margin-bottom:1em"></a> -->
+                <a href="/img/Festo-HPE-Official-Partnership.pdf"><img src ="/img/Festo_Partner_Label_Print_L_900-01.jpg" width="300px" style="margin-bottom:1em;margin-left:1.5em"></a>
                 </div>
                 <!-- Services -->
                 <?php include_once($project_root_folder . '/views/partials/homepage/services.view.php'); ?>
