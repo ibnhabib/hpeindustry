@@ -3,6 +3,40 @@ $official_product_name = "Festo";
 $official_product_description="Festo is a German multinational industrial control and automation company based in Esslingen am Neckar, Germany. Festo produces and sells pneumatic and electrical control and drive technology for factory or process automation."; 
 $official_product_logo = "festo.svg";
 $official_product_website = "https://www.festo.com/us/en/";
+$has_categories = true;
+
+$manifest = 
+    [
+        [
+            'category'=>'Pneumatic Automation', // Cylinders, Valve and Terminals, Air Preparation, Tubing and Fitting, Sensors,  Vacuum Systems Technology, Grippers
+            'category_image' => 'photo/thumb of category',
+            'category_items' => 
+                [
+                    'image'=>'image location',
+                    'title'=>'Title of Item'
+                ]
+        ],
+        [
+            'category'=>'Electric Automation', // Linear Actuators, Rotary Actuators and Gearboxes, Servo, ELVS and Integrated Motors, Servo and ELVS Drives
+            'category_image' => 'photo/thumb of category',
+            'category_items' => 
+                [
+                    'image'=>'image location',
+                    'title'=>'Title of Item'
+                ]
+        ],
+        [
+            'category'=>'Process Automation', 
+            'category_image' => 'photo/thumb of category',
+            'category_items' => 
+                [
+                    'image'=>'image location',
+                    'title'=>'Title of Item'
+                ]
+        ],
+    ];
+    
+
 $manifest = [
     [
     'image'=> 'LSP-14-D-555-499x355-300x300.jpg' ,

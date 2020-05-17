@@ -3,6 +3,8 @@ $official_product_name = "MEI";
 $official_product_description="MEI is a manufacturer and exporter of pressure gauges, thermometers and all kinds of industrial instrumentation. It has been specialized in producing manometers for more than 30 years becoming well known in the Spanish industrial market. MEI has extensive experience in producing high quality instrumentation, such as stainless steel manometers and chemical separators."; 
 $official_product_logo = "mei.jpg";
 $official_product_website = "https://en.mei.es/";
+$has_categories = false;
+
 $manifest = [
     [
     'image'=> 'manometros-para-amoniaco-300x300.jpg' ,

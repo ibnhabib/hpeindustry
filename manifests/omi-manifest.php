@@ -3,6 +3,8 @@ $official_product_name="OMI";
 $official_product_description="Based in Italy, OMI develops, manufactures and distributes a complete range of products in the field of Compressed Air Treatment and Industrial Refrigeration."; 
 $official_product_logo = "omi.gif";
 $official_product_website = "https://www.omi-italy.it/en";
+$has_categories = false;
+
 $manifest = [
     [
     'image'=> 'RA-P10-750-300x300.jpg' ,
