@@ -12,128 +12,127 @@ $manifest =
             'category_image' => 'photo/thumb of category',
             'category_items' => 
                 [
-                    'image'=>'image location',
-                    'title'=>'Title of Item'
+                    [
+                    'image'=> 'LSP-14-D-555-499x355-300x300.jpg' ,
+                    'title'=> 'Air guns LSP', 
+                    ],
+                    [
+                    'image'=> 'P_3CE6BD60C121406F8A74FE286CFDB34C_pp.jpg' ,
+                    'title'=> 'Air Reservoir CRVZS', 
+                    ],
+                    [
+                    'image'=> '66BAC9B395DD47639CA951D92081B485.jpg' ,
+                    'title'=> 'Ball valves and ball valve actuator units VZBA', 
+                    ],
+                    [
+                    'image'=> '01FE2035796640CB8A0490B1BE2138D2.jpg' ,
+                    'title'=> 'Cartridge cylinder and multimount cylinder', 
+                    ],
+                    [
+                    'image'=> '477E1CB6FAA344B992502954FB7AB71C.jpg' ,
+                    'title'=> 'Compact, short stroke and flat cylinder', 
+                    ],
+                    [
+                    'image'=> 'AGTC_17691u_2_710px-600x600.jpg' ,
+                    'title'=> 'Clip fix tool AGTC', 
+                    ],
+
+                    [
+                    'image'=> '4EE7C5B6E7FA4D1A8706C0B88A776C49.jpg' ,
+                    'title'=> 'Control cabinets', 
+                    ],
+                    [
+                    'image'=> '492139F5E52A4B5D8F8D163B43929A83.jpg' ,
+                    'title'=> 'Cylinder with clamping unit', 
+                    ],
+                    [
+                    'image'=> '97F8CBF39841407D9FA95932EF92A90C.jpg' ,
+                    'title'=> 'Magnetic coupling', 
+                    ],
+                    [
+                    'image'=> 'E51BB2CAF3224DDFADF09D4ED121F738.jpg' ,
+                    'title'=> 'Mechanical coupling', 
+                    ],
+                    [
+                    'image'=> '1D970D19B884499FA9512B5B79D22598.jpg' ,
+                    'title'=> 'Multi-position cylinders', 
+                    ]
                 ]
         ],
         [
-            'category'=>'Electric Automation', // Linear Actuators, Rotary Actuators and Gearboxes, Servo, ELVS and Integrated Motors, Servo and ELVS Drives
+            'category'=>'Electric Automation', // Linear Actuators, Rotary Actuators and Gearboxes, Servo ELVS and Integrated Motors, Servo and ELVS Drives, PLC's Remote IOs and HMIs, Vision Systems, Function-Based Products
             'category_image' => 'photo/thumb of category',
-            'category_items' => 
+            'category_items' => [
                 [
-                    'image'=>'image location',
-                    'title'=>'Title of Item'
-                ]
+                'image'=> 'DFCF4D807A4F4D868B2672FE54C0E030.jpg' ,
+                'title'=> 'Drives with displacement encoder', 
+                ],
+                [
+                'image'=> '4E1831AE561442609F79B55C1A784336.jpg' ,
+                'title'=> 'Drives with guide rods', 
+                ],
+                [
+                'image'=> 'CD19EED622284511ADD9843D145337D9.jpg' ,
+                'title'=> 'Drives with slide', 
+                ],
+                [
+                'image'=> '74A23EF86DD24484855B7DA190310050.jpg' ,
+                'title'=> 'Linear drive with DFPI displacement encoder', 
+                ],
+                [
+                'image'=> '71A2CCBDD5AC48CEBDA485EDD957E27D.jpg' ,
+                'title'=> 'Linear drives', 
+                ],
+                [
+                'image'=> 'electrical_peripherals.jpg' ,
+                'title'=> 'Electrical peripherals', 
+                ],
+                [
+                'image'=> '2CDBAB935BE14A92A7AB180EA9193BA0.jpg' ,
+                'title'=> 'Linear actuators, Copac DLP', 
+                ],
+            ]
         ],
         [
-            'category'=>'Process Automation', 
+            'category'=>'Process Automation', // 1/4 Turn Actuators, Angle Seat Valves, Ball Valves, Butterfly Valves
             'category_image' => 'photo/thumb of category',
-            'category_items' => 
+            'category_items' => [
                 [
-                    'image'=>'image location',
-                    'title'=>'Title of Item'
-                ]
+                'image'=> '66BAC9B395DD47639CA951D92081B485.jpg' ,
+                'title'=> 'Ball valves and ball valve actuator units VZBA', 
+                ],
+                [
+                'image'=> '68141C5E60674D0BBD207A4A1C22421A.jpg' ,
+                'title'=> 'Pilot valves', 
+                ],
+                [
+                'image'=> '8A5544BCC332490DB58A10E211EE481F.jpg' ,
+                'title'=> 'Pinch valves VZQA', 
+                ],
+                [
+                'image'=> '7F1A393564E347AE9CAE75073D9E8BAF.jpg' ,
+                'title'=> 'Pneumatic valves VLX', 
+                ],
+                [
+                'image'=> 'D4440D62A905492E95285E205AD0E2C3.jpg' ,
+                'title'=> 'Proportional directional control valves', 
+                ],
+            ]
         ],
     ];
     
 
-$manifest = [
-    [
-    'image'=> 'LSP-14-D-555-499x355-300x300.jpg' ,
-    'title'=> 'Air guns LSP', 
-    ],
-    [
-    'image'=> 'P_3CE6BD60C121406F8A74FE286CFDB34C_pp.jpg' ,
-    'title'=> 'Air Reservoir CRVZS', 
-    ],
-    [
-    'image'=> '66BAC9B395DD47639CA951D92081B485.jpg' ,
-    'title'=> 'Ball valves and ball valve actuator units VZBA', 
-    ],
-    [
-    'image'=> '01FE2035796640CB8A0490B1BE2138D2.jpg' ,
-    'title'=> 'Cartridge cylinder and multimount cylinder', 
-    ],
-    [
-    'image'=> 'AGTC_17691u_2_710px-600x600.jpg' ,
-    'title'=> 'Clip fix tool AGTC', 
-    ],
-    [
-    'image'=> '477E1CB6FAA344B992502954FB7AB71C.jpg' ,
-    'title'=> 'Compact, short stroke and flat cylinder', 
-    ],
-    [
-    'image'=> '4EE7C5B6E7FA4D1A8706C0B88A776C49.jpg' ,
-    'title'=> 'Control cabinets', 
-    ],
-    [
-    'image'=> '492139F5E52A4B5D8F8D163B43929A83.jpg' ,
-    'title'=> 'Cylinder with clamping unit', 
-    ],
-    [
-    'image'=> 'DFCF4D807A4F4D868B2672FE54C0E030.jpg' ,
-    'title'=> 'Drives with displacement encoder', 
-    ],
-    [
-    'image'=> '4E1831AE561442609F79B55C1A784336.jpg' ,
-    'title'=> 'Drives with guide rods', 
-    ],
-    [
-    'image'=> 'CD19EED622284511ADD9843D145337D9.jpg' ,
-    'title'=> 'Drives with slide', 
-    ],
-    [
-    'image'=> 'electrical_peripherals.jpg' ,
-    'title'=> 'Electrical peripherals', 
-    ],
-    [
-    'image'=> '2CDBAB935BE14A92A7AB180EA9193BA0.jpg' ,
-    'title'=> 'Linear actuators, Copac DLP', 
-    ],
-    [
-    'image'=> '74A23EF86DD24484855B7DA190310050.jpg' ,
-    'title'=> 'Linear drive with DFPI displacement encoder', 
-    ],
-    [
-    'image'=> '71A2CCBDD5AC48CEBDA485EDD957E27D.jpg' ,
-    'title'=> 'Linear drives', 
-    ],
-    [
-    'image'=> '97F8CBF39841407D9FA95932EF92A90C.jpg' ,
-    'title'=> 'Magnetic coupling', 
-    ],
-    [
-    'image'=> 'E51BB2CAF3224DDFADF09D4ED121F738.jpg' ,
-    'title'=> 'Mechanical coupling', 
-    ],
+$manifest_old = [
+
     [
     'image'=> '1E875C0353FA4B8B8F29DE356D5D5711.jpg' ,
     'title'=> 'Modules', 
     ],
     [
-    'image'=> '1D970D19B884499FA9512B5B79D22598.jpg' ,
-    'title'=> 'Multi-position cylinders', 
-    ],
-    [
-    'image'=> '68141C5E60674D0BBD207A4A1C22421A.jpg' ,
-    'title'=> 'Pilot valves', 
-    ],
-    [
-    'image'=> '8A5544BCC332490DB58A10E211EE481F.jpg' ,
-    'title'=> 'Pinch valves VZQA', 
-    ],
-    [
-    'image'=> '7F1A393564E347AE9CAE75073D9E8BAF.jpg' ,
-    'title'=> 'Pneumatic valves VLX', 
-    ],
-    [
     'image'=> 'P_C9198E6E3E444E2C90469FCDC07E12B3_pp.jpg' ,
     'title'=> 'Pressure regulators LR, LRS', 
     ],
-    [
-    'image'=> 'D4440D62A905492E95285E205AD0E2C3.jpg' ,
-    'title'=> 'Proportional directional control valves', 
-    ],
+    
     [
     'image'=> '9C5F078C52D7437EB5953D6FE6316313.jpg' ,
     'title'=> 'Quarter turn actuators DFPD', 
