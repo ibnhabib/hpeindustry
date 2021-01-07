@@ -21,8 +21,8 @@
     <div class="flex">
 
         {{-- Logo --}}
-        <div class="w-32 md:w-64 flex-shrink-0">
-            <img class="object-fill w-full" src="/assets/images/product_logos/{{$page->official_product_logo}}" alt="">
+        <div class="w-32 md:w-64 flex-shrink-0 flex items-center justify-center">
+            <img class="object-fit max-h-48" src="/assets/images/product_logos/{{$page->official_product_logo}}" alt="">
         </div>
         <div class="w-4 md:w-8 flex-shrink-0"></div>
 
