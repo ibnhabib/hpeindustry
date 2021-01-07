@@ -1,1 +1,0 @@
-This is the products home page;
