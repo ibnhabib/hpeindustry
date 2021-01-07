@@ -6,7 +6,6 @@ official_product_name : Aignep
 official_product_description : Aignep is a leader in the production of fittings, solenoid valves and cylinders. Based in Italy, it exports its products to more than 90 countries in the world.
 official_product_logo : aignep.svg
 official_product_website : https://www.aignep.com/eng
-official_product_catalogue : infinity_catalogue.pdf
 
 photo_sets : 
     title  : Infinity Pipes

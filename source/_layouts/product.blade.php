@@ -5,6 +5,7 @@
 @include('assets._partials.navigation')
 
 {{-- Bread Crumbs --}}
+
 <div class="section mt-8">
     <nav aria-label="breadcrumbs">
         <ul class="flex">
@@ -32,7 +33,7 @@
             {{-- Action Buttons --}}
             <div class="flex">
 
-                @if(isset($page->official_product_catalogue))
+                @if(strlen($page->official_product_catalogue) > 0)
                 {{-- Catalogue Button --}}
                 <a href="/assets/catalogues/{{$page->official_product_catalogue}}"
                     class="group inline-flex mt-4 mr-4 py-2 items-center rounded-lg px-2 border border-gray-50 hover:text-white hover:bg-primary shadow"
