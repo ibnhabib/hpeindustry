@@ -6,6 +6,7 @@
 
 {{-- Bread Crumbs --}}
 
+
 <div class="section mt-8">
     <nav aria-label="breadcrumbs">
         <ul class="flex">
@@ -65,6 +66,23 @@
         </div>
     </div>
 </section>
+
+
+{{-- photo sets (optional) --}}
+@if(is_array($page->photo_sets))
+<section class="section mt-16">
+    @foreach ($page->photo_sets as $set)
+        <h2 class="text-2xl font-bold text-primary uppercase mb-8">{{$set['title']}}</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 lg:grid-cols-6 border-t border-dashed border-primary pt-6">
+        @foreach ($set['photos'] as $photo)
+            <div>
+                <img src="/assets/images/photo_sets/{{$page->product_key}}/{{$photo}}">
+            </div>
+            @endforeach
+        </div>
+    @endforeach
+</section>
+@endif
 
 {{-- Products Grid --}}
 <section class="section mt-16 ">

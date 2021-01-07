@@ -8,8 +8,8 @@ official_product_logo : aignep.svg
 official_product_website : https://www.aignep.com/eng
 
 photo_sets : 
-    title  : Infinity Pipes
-    photos : [aignep_infinity_pipe_1.JPG, aignep_infinity_pipe_2.JPG, aignep_infinity_pipe_3.JPG, aignep_infinity_pipe_4.JPG, aignep_infinity_pipe_5.JPG, aignep_infinity_pipe_6.JPG, aignep_infinity_pipe_7.JPG, aignep_infinity_pipe_8.JPG, aignep_infinity_pipe_9.JPG, aignep_infinity_pipe_10.JPG]
+    - title  : Infinity Pipes
+      photos : [aignep_infinity_pipe_1.JPG, aignep_infinity_pipe_2.JPG, aignep_infinity_pipe_3.JPG, aignep_infinity_pipe_4.JPG, aignep_infinity_pipe_5.JPG, aignep_infinity_pipe_6.JPG, aignep_infinity_pipe_7.JPG, aignep_infinity_pipe_8.JPG, aignep_infinity_pipe_9.JPG, aignep_infinity_pipe_10.JPG]
 
 manifest : 
     - image : PLUG-COM-ROSCA-MACHO-fullWidthDesktop.jpg
