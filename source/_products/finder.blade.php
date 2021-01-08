@@ -2,6 +2,7 @@
 extends: _layouts.product
 title: HPE Industry Products - Finder
 product_key : finder
+product_button: finder.png
 official_product_name : Finder
 official_product_description : Finder was founded in 1954, it has concentrated its efforts on the manufacture of quality products, including step relays, light dependent relays and other products for residential and commercial applications; industrial relays, miniature and ultra-slim relays, power relays, timers relay sockets and accessories.
 official_product_logo : finder.svg

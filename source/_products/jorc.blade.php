@@ -2,6 +2,7 @@
 extends: _layouts.product
 title: HPE Industry Products - Jorc
 product_key : jorc
+product_button : jorc.jpg 
 official_product_name : JORC
 official_product_description : The JORC organisation is designed to ensure top quality compressed air condensate management products at the best possible cost, the fastest delivery and on time payments. No competitor gets even close to this simple formula.
 official_product_logo : jorc.jpg

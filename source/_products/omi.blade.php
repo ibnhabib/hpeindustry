@@ -2,6 +2,7 @@
 extends: _layouts.product
 title: HPE Industry Products - OMI
 product_key : omi
+product_button : omi.jpg
 official_product_name : OMI
 official_product_description : Based in Italy, OMI develops, manufactures and distributes a complete range of products in the field of Compressed Air Treatment and Industrial Refrigeration.
 official_product_logo : omi.gif

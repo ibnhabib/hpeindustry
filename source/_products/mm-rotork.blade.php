@@ -2,6 +2,7 @@
 extends: _layouts.product
 title: HPE Industry Products - M&M Rotork 
 product_key : mm-rotork
+product_button : mm.jpg 
 official_product_name : M&M Rotork
 official_product_description : Rotork is the market leading actuator manufacturer and flow control company that operates in any market where the flow of gases or liquids needs to be controlled. 
 official_product_logo : mm-rotork.jpg

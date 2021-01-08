@@ -21,25 +21,10 @@ title: Welcome To HPE Industry
             <p class="py-4 text-gray-600 text-xl max-w-prose">H.P.E. Industry LTD. stocks a wide range of products from valves and cylinders to sensors, pumps and motors in Ghana, all from top international brands listed below.</p>
         </div>
         {{-- products grid --}}
-        @php
-            $products=[
-                'festo'     => 'festo.jpg',
-                'aignep'    => 'aignep.png', 
-                'autonics'  => 'autonics.jpg',
-                'comex'     => 'comex.jpg',
-                'finder'    => 'finder.png',
-                'infinity'  =>  'infinity.jpg',
-                'jorc'      =>  'jorc.jpg',
-                'mei'       =>  'mel.jpg',
-                'mm-rotork' =>  'mm.jpg',
-                'omi'       =>  'omi.jpg',
-                'shiny'     =>  'shiny.jpg'
-            ]
-        @endphp
-    
+
         <div class="mt-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-            @foreach($products as $key => $image)
-            <a href="/products/{{$key}}"><img src="/assets/images/product_buttons/{{$image}}" alt="{{$key}}"></a>
+            @foreach($products as $product)
+            <a href="/products/{{$product->product_key}}"><img src="/assets/images/product_buttons/{{$product->product_button}}" alt="{{$key}}"></a>
             @endforeach
         </div>
     </div>

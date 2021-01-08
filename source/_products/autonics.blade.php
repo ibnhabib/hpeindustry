@@ -2,6 +2,7 @@
 extends: _layouts.product
 title: HPE Industry Products - Autonics
 product_key : autonics
+product_button : autonics.jpg
 official_product_name : Autonics
 official_product_description : Autonics is a leading provider of automation solutions from South Korea. It develops and manufactures a wide range of automation products which are marketed worldwide. Its core products include various sensors, controllers, motion devices, measuring equipment, laser marking systems, connection equipment and more.
 official_product_logo : autonics.jpg

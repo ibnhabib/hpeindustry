@@ -2,6 +2,7 @@
 extends: _layouts.product
 title: HPE Industry Products - Festo 
 product_key: festo
+product_button: festo.jpg
 official_product_name: Festo
 official_product_description: Festo is a German multinational industrial control and automation company based in Esslingen am Neckar Germany. Festo produces and sells pneumatic and electrical control and drive technology for factory or process automation.
 official_product_logo: festo.svg
