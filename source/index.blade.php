@@ -13,7 +13,7 @@ title: Welcome To HPE Industry
 <section class="section flex items-start">
 
     {{-- Products --}}
-    <div class="w-3/4 pr-12">
+    <div class="flex-shrink pr-12">
 
         {{-- products intro --}}
         <h2 class="font-bold text-2xl text-gray-800 mb-3 pb-3 ">Products</h2>
@@ -28,14 +28,18 @@ title: Welcome To HPE Industry
             @endforeach
         </div>
     </div>
-
-
     {{-- festo logo and services --}}
-    <div class="w-1/4">
+    <div class="w-80 min-w-80">
         {{-- logo --}}
         <img src="/assets/images/Festo_Partner_Label_Print_L_900-01.jpg" alt="Festo Official Partner">
         {{-- Services --}}
-        services
+        <h2 class="font-bold text-2xl text-gray-800 py-3 ">Services</h2>
+        <x-service title="Sales and Services" image="sales-and-services.png">
+            We provides the best industrial automation solutions and technical support through our highly experienced sales team.
+        </x-service>
+        <x-service title="Solution Sales" image="solution-sales.png">
+            With a wide variety of products, we help customers raise productivity by providing alround customized solutions
+        </x-service>
     </div>
 </section>
 
