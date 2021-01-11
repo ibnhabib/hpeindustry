@@ -20,7 +20,7 @@ title: Welcome To HPE Industry
 {{-- Slideshow --}}
 
 {{-- Products & services --}}
-<section class="section md:flex flex-grow items-start">
+<section class="section md:flex flex-grow items-start pb-24">
 
     {{-- Products --}}
     <div class="pr-12 w-full">
@@ -37,6 +37,17 @@ title: Welcome To HPE Industry
             <a href="/products/{{$product->product_key}}"><img class="w-full" src="/assets/images/product_buttons/{{$product->product_button}}" alt="{{$key}}"></a>
             @endforeach
         </div>
+
+        {{-- Customers --}}
+        <h2 class="mt-8 font-bold text-2xl text-gray-800 mb-3 pb-3 ">Our Customers</h2>
+        <div class="border-t border-b border-dashed border-primary">
+            <p class="py-4 text-gray-600 text-xl max-w-prose">We Are Trusted by Ghana's Top Companies</p>
+        </div>
+
+        <div class="grid grid-cols-10 gap-1 mt-4">
+            @include('assets._partials.customers')
+        </div>
+
     </div>
     {{-- festo logo and services --}}
     <div class="md:w-1/4 lg:w-1/4 xl:w-1/5 flex-shrink-0">
