@@ -1,6 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import 'flickity/css/flickity';
 
 .section {
     @apply w-auto mx-4 md:container md:mx-auto;

@@ -18,6 +18,7 @@ title: Welcome To HPE Industry
 @include('assets._partials.navigation')
 
 {{-- Slideshow --}}
+@include('assets._partials.slideshow')
 
 {{-- Products & services --}}
 <section class="section md:flex flex-grow items-start pb-24">
