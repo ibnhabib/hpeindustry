@@ -18,7 +18,7 @@
     </div>
 
     {{-- Menu --}}
-    <ul role="navigation" id="navigation" class="mt-4 md:mt-0 hidden md:flex text-md lg:text-xl items-start">
+    <ul role="navigation" id="navigation" class="mt-4 md:mt-0 hidden md:flex text-md lg:text-xl items-start z-50">
         
         <li><a href="/about" class="block hover:bg-gray-100 pt-2 pb-1 md:p-4">About</a></li>
         
