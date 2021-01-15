@@ -51,7 +51,7 @@ title: Welcome To HPE Industry
 
     </div>
     {{-- festo logo and services --}}
-    <div class="md:w-1/4 lg:w-1/4 xl:w-1/5 flex-shrink-0">
+    <div class="md:w-1/4 lg:w-1/3 xl:w-1/4 flex-shrink-0">
         {{-- logo --}}
         <img class="w-full max-w-xs mt-12 md:mt-0" src="/assets/images/Festo_Partner_Label_Print_L_900-01.jpg" alt="Festo Official Partner">
         {{-- Services --}}
