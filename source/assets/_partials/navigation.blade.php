@@ -30,8 +30,8 @@
             </a>
             
             <ul class="md:absolute md:top-14 md:left-0 md:shadow-md md:border border-gray-100 md:ml-2 md:invisible md:h-1 md:group-hover:visible md:group-hover:h-auto">
-                @foreach ($page->products as $key => $product)
-                    <li><a class="block bg-gray-50 md:bg-white hover:bg-gray-50 px-6 py-1 md:py-2" href="/products/{{$key}}">{{$product}}</a></li>
+                @foreach ($products as $key => $product)
+                    <li><a class="block bg-gray-50 md:bg-white hover:bg-gray-50 px-6 py-1 md:py-2" href="/products/{{$product->product_key}}">{{$product->official_product_name}}</a></li>
                 @endforeach
             </ul>
         

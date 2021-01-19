@@ -1,27 +1,17 @@
 <?php
 
 return [
-    'production' => false,
-    'baseUrl' => '',
-    'title' => 'Jigsaw',
-    'description' => 'Website description.',
-    'collections' => [
-        'products' => [
-            'path' => 'products',
+    'production'    => false,
+    'baseUrl'       => '',
+    'title'         => 'Jigsaw',
+    'description'   => 'Website description.',
+    'contact'       => "+233 (0) 302 235 108",
+    'email'         => 'sales@hpeindustry.com',
+    'fb_page'       => 'https://web.facebook.com/hpeindustry',
+    'collections'   => [
+        'products'  => [
+            'path'  => 'products',
         ],
     ],
-    'rootFolder' => '/Users/mustaphahamoui/sites/hpe-jigsaw/',
-    'products' => [
-        'festo' => 'Festo',
-        'aignep' => 'Aignep',
-        'autonics' => 'Autonics',
-        'finder' => 'Finder',
-        'comex' => 'Comex',
-        'infinity' => 'Infinity',
-        'jorc' => 'Jorc',
-        'mei' => 'Mei',
-        'mm-rotork' => 'M&M Rotork',
-        'omi' => 'OMI',
-        'shiny' => 'Shiny',
-    ],
+    'rootFolder' => '/Users/mustaphahamoui/sites/hpe-jigsaw/'
 ];

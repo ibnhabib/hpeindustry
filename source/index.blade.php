@@ -3,7 +3,7 @@ extends: _layouts.master
 title: Welcome To HPE Industry
 ---
 
-{{-- Remove when done --}}
+{{-- Responsive Helper Bar. Remove when done --}}
 <div class="container mx-auto bg-gray-300 p-2 text-xs">
      <span class="sm:hidden">extra small</span>
      <span class="hidden sm:inline-block md:hidden">small</span>
@@ -73,5 +73,5 @@ title: Welcome To HPE Industry
             </x-service>
     </div>
 </section>
-
+@include('assets._partials.footer')
 @endsection
