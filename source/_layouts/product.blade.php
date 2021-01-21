@@ -4,35 +4,21 @@
 @include('assets._partials.upper_band')
 @include('assets._partials.navigation')
 
-{{-- Bread Crumbs --}}
-
-
-<div class="section mt-8">
-    <nav aria-label="breadcrumbs">
-        <ul class="flex">
-            <li><a href="/" class="text-primary">Products </a></li>
-            <li class="ml-4 text-gray-500">/</li>
-            <li class="ml-4">{{$page->official_product_name}}</li>
-        </ul>
-    </nav>
-</div>
-
 {{-- Product Details --}}
 <section class="section mt-8 text-gray-600">
-    <div class="flex">
+    <div class="">
 
         {{-- Logo --}}
-        <div class="w-32 md:w-64 flex-shrink-0 flex items-center justify-center">
+        <div class="w-32 mx-auto md:w-64 flex-shrink-0 flex items-center justify-center">
             <img class="object-fit max-h-48" src="/assets/images/product_logos/{{$page->official_product_logo}}" alt="">
         </div>
-        <div class="w-4 md:w-8 flex-shrink-0"></div>
 
         {{-- Description --}}
-        <div class="md:text-lg max-w-prose">
+        <div class="mx-auto mt-8 md:text-lg max-w-prose text-center">
             <p>{{$page->official_product_description}}</p>
 
             {{-- Action Buttons --}}
-            <div class="flex">
+            <div class="container flex mx-auto mt-8 justify-around">
 
                 @if(strlen($page->official_product_catalogue) > 0)
                 {{-- Catalogue Button --}}

@@ -56,21 +56,24 @@ title: Welcome To HPE Industry
         <img class="w-full max-w-xs mt-12 md:mt-0" src="/assets/images/Festo_Partner_Label_Print_L_900-01.jpg" alt="Festo Official Partner">
         {{-- Services --}}
         <h2 class="font-bold text-2xl text-gray-800 py-3 ">Services</h2>
-            <x-service title="Sales and Services" image="sales-and-services.png">
-                We provides the best industrial automation solutions and technical support through our highly experienced sales team.
-            </x-service>
-            <x-service title="Solution Sales" image="solution-sales.png">
-                With a wide variety of products, we help customers raise productivity by providing alround customized solutions
-            </x-service>
-            <x-service title="Compressed Air Installation" image="compressed-air-installation.png">
-                Infinity piping is a high performance aluminum piping system that is easy to install and simple to extend or modify.
-            </x-service>
-            <x-service title="Maintenance And Field Work" image="maintenance-and-field-work.png">
-                We provide field support and services for large scale projects within a wide range of industries. With a vast range of products including aluminum piping.
-            </x-service>
-            <x-service title="Industrial Automation" image="industrial-automation.png">
-                With a wide variety of products, we help customers raise productivity by providing alround solutions which are customized to meet requirements, budget and environments.
-            </x-service>
+        <x-service title="Sales and Services" image="sales-and-services.png">
+            We provides the best industrial automation solutions and technical support through our highly experienced sales team.
+        </x-service>
+        <x-service title="Solution Sales" image="solution-sales.png">
+            With a wide variety of products, we help customers raise productivity by providing alround customized solutions
+        </x-service>
+        <x-service title="Compressed Air Installation" image="compressed-air-installation.png">
+            Infinity piping is a high performance aluminum piping system that is easy to install and simple to extend or modify.
+        </x-service>
+        <x-service title="Maintenance And Field Work" image="maintenance-and-field-work.png">
+            We provide field support and services for large scale projects within a wide range of industries. With a vast range of products including aluminum piping.
+        </x-service>
+        <x-service title="Industrial Automation" image="industrial-automation.png">
+            With a wide variety of products, we help customers raise productivity by providing alround solutions which are customized to meet requirements, budget and environments.
+        </x-service>
+        <a href="/services" class="block mt-8 px-4 py-2 border border-primary rounded-md text-primary hover:bg-primary hover:text-white text-center">
+            More About our Services
+        </a>
     </div>
 </section>
 

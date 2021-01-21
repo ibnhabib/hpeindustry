@@ -24,10 +24,10 @@
         
         <li class="group relative">
             
-            <a href="/products" class="flex items-center hover:bg-gray-100 pt-2 pb-1 md:p-4 md:ml-2">
+            <div class=" cursor-pointer flex items-center hover:bg-gray-100 pt-2 pb-1 md:p-4 md:ml-2">
                 <div>Products </div> 
                 <svg class="text-primary h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /> </svg>
-            </a>
+            </div>
             
             <ul class="md:absolute md:top-14 md:left-0 md:shadow-md md:border border-gray-100 md:ml-2 md:invisible md:h-1 md:group-hover:visible md:group-hover:h-auto">
                 @foreach ($products as $key => $product)
