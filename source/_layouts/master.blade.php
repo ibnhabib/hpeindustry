@@ -12,6 +12,7 @@
     </head>
     <body class="text-gray-900 font-sans antialiased">
         @yield('body')
+        @include('assets._partials.footer')
     </body>
     <script src="{{mix('js/main.js', 'assets/build')}}"></script>
     @include('assets._partials.scripts')

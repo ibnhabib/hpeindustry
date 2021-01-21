@@ -73,5 +73,5 @@ title: Welcome To HPE Industry
             </x-service>
     </div>
 </section>
-@include('assets._partials.footer')
+
 @endsection
