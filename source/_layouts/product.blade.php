@@ -58,7 +58,7 @@
 @if(is_array($page->photo_sets))
 <section class="section mt-16">
     @foreach ($page->photo_sets as $set)
-        <h2 class="text-2xl font-bold text-primary uppercase mb-8">{{$set['title']}}</h2>
+        <h2 class="text-center text-2xl font-bold text-primary uppercase mb-8">{{$set['title']}}</h2>
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 lg:grid-cols-6 border-t border-dashed border-primary pt-6">
         @foreach ($set['photos'] as $photo)
             <div>
@@ -72,7 +72,7 @@
 
 {{-- Products Grid --}}
 <section class="section mt-16 ">
-    <h2 class="text-2xl font-bold text-primary uppercase mb-8">{{$page->official_product_name}} products at HPE Industries :</h2>
+    <h2 class="text-center text-2xl font-bold text-primary uppercase mb-8">{{$page->official_product_name}} products at HPE Industries</h2>
     <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 border-t border-dashed border-primary pt-6">
     @foreach($page->manifest as $product)
     <div class="p-4 border-b border-dashed border-primary">
