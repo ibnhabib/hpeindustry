@@ -5,25 +5,25 @@
 @include('assets._partials.navigation')
 
 {{-- Product Details --}}
-<section class="section mt-8 text-gray-600">
+<section class="mt-8 text-gray-600 section">
     <div class="">
 
         {{-- Logo --}}
-        <div class="w-32 mx-auto md:w-64 flex-shrink-0 flex items-center justify-center">
+        <div class="flex items-center justify-center flex-shrink-0 w-32 mx-auto md:w-64">
             <img class="object-fit max-h-48" src="/assets/images/product_logos/{{$page->official_product_logo}}" alt="">
         </div>
 
         {{-- Description --}}
-        <div class="mx-auto mt-8 md:text-lg max-w-prose text-center">
+        <div class="mx-auto mt-8 text-center md:text-lg max-w-prose">
             <p>{{$page->official_product_description}}</p>
 
             {{-- Action Buttons --}}
-            <div class="container flex mx-auto mt-8 justify-around">
+            <div class="container flex justify-around mx-auto mt-8">
 
                 @if(strlen($page->official_product_catalogue) > 0)
                 {{-- Catalogue Button --}}
                 <a href="/assets/catalogues/{{$page->official_product_catalogue}}"
-                    class="group inline-flex mt-4 mr-4 py-2 items-center rounded-lg px-2 border border-gray-50 hover:text-white hover:bg-primary shadow"
+                    class="inline-flex items-center p-2 mt-4 mr-4 border rounded-lg shadow group border-gray-50 hover:text-white hover:bg-primary"
                     download>
                     <svg class="h-5 mr-1 text-primary group-hover:text-white" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -36,7 +36,7 @@
                 @endif
                 {{-- Visit Website Button --}}
                 <a href="{{$page->official_product_website}}" target="_blank"
-                    class="group inline-flex mt-4 mr-4 py-2 items-center rounded-lg px-2 border border-gray-50 hover:text-white hover:bg-primary shadow"
+                    class="inline-flex items-center p-2 mt-4 mr-4 border rounded-lg shadow group border-gray-50 hover:text-white hover:bg-primary"
                     download>
                     <svg class="h-5 mr-1 text-primary group-hover:text-white" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -56,10 +56,10 @@
 
 {{-- photo sets (optional) --}}
 @if(is_array($page->photo_sets))
-<section class="section mt-16">
+<section class="mt-16 section">
     @foreach ($page->photo_sets as $set)
-        <h2 class="text-center text-2xl font-bold text-primary uppercase mb-8">{{$set['title']}}</h2>
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 lg:grid-cols-6 border-t border-dashed border-primary pt-6">
+        <h2 class="mb-8 text-2xl font-bold text-center uppercase text-primary">{{$set['title']}}</h2>
+        <div class="grid grid-cols-2 gap-4 pt-6 border-t border-dashed sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 border-primary">
         @foreach ($set['photos'] as $photo)
             <div>
                 <img src="/assets/images/photo_sets/{{$page->product_key}}/{{$photo}}">
@@ -71,15 +71,15 @@
 @endif
 
 {{-- Products Grid --}}
-<section class="section mt-16 ">
-    <h2 class="text-center text-2xl font-bold text-primary uppercase mb-8">{{$page->official_product_name}} products at HPE Industries</h2>
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 border-t border-dashed border-primary pt-6">
+<section class="mt-16 section ">
+    <h2 class="mb-8 text-2xl font-bold text-center uppercase text-primary">{{$page->official_product_name}} products at HPE Industries</h2>
+    <div class="grid grid-cols-2 pt-6 border-t border-dashed sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 border-primary">
     @foreach($page->manifest as $product)
     <div class="p-4 border-b border-dashed border-primary">
         <div class="h-48">
             <img class="object-contain h-40" src="/assets/images/products/{{$page->product_key}}/{{$product['image']}}" alt="{{$product['title']}}">
         </div>
-        <small class="px-4 block text-sm text-gray-400 uppercase">{{$product['title']}}</small>
+        <small class="block px-4 text-sm text-gray-400 uppercase">{{$product['title']}}</small>
     </div>
     @endforeach
 </div>
