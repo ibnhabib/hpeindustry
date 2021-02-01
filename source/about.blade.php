@@ -20,12 +20,12 @@ title: About HPE Industry
 <section class="section">
    <div class="flex">
      <div class="w-1/2">
-          <h1>About HPE Industry LTD.</h1>
-          <p>
+          <h1 class="text-2xl font-semibold text-primary">About HPE Industry LTD.</h1>
+          <p class="mt-4 text-xl leading-relaxed text-gray-600 leading max-w-prose">
                Established in April 2005, we are a well stocked, full service hydraulic, pneumatic and electronics- company that offers a wide range of hydraulics, pneumatics and electronic equipment, as well as air-filtration, drives, instrumentation, valves etc. We are authorized distributors and service providers for FESTO, AIGNEP, AUTONICS, COMEX, FINDER, INFINITY, JORC, M&M ROTORK, MEI, OMI, and SHINY products in Ghana. We stock and provide only superior products from trusted names!
           </p>
 
-          <p>
+          <p class="mt-4 text-xl text-gray-600 max-w-prose">
           Because of this, H.P.E. INDUSTRY LTD. has earned a reputation of being among the best in the industry, a large part of which is due to the fact that we have a genuine interest in our customer’s success.
           </p>
 
