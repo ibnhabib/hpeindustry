@@ -10,8 +10,10 @@
         <title>{{ $page->title }}</title>
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
-    <body class="text-gray-900 font-sans antialiased">
-        @yield('body')
+    <body class="font-sans antialiased text-gray-900">
+        <div class="min-h-screen">
+            @yield('body')
+        </div>
         @include('assets._partials.footer')
     </body>
     <script src="{{mix('js/main.js', 'assets/build')}}"></script>
