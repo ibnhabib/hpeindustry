@@ -18,7 +18,7 @@ title: About HPE Industry
 
 <section class="section">
    <div class="md:flex">
-     <div class="w-1/2 mr-4 content">
+     <div class="mr-4 md:w-1/2 content">
 
           <h1 class="text-2xl font-bold text-primary">About HPE Industry LTD.</h1>
 
@@ -31,7 +31,7 @@ title: About HPE Industry
           </p>
 
      </div>
-     <div class="w-1/2">
+     <div class="md:w-1/2">
           <figure class="table">
             <img src="/assets/images/festo_technicians.jpg" alt="HPE industry Technicians">
                <div class="table-caption mt-4 text-sm text-primary" style="caption-side:bottom">
@@ -42,17 +42,43 @@ title: About HPE Industry
      </div>
 </div>  
 </section>
-<section class="section">
-     <div class="flex justify-between w-full pb-12">
-          <div class="w-1/3 ">
+<section class="mt-4 section">
+     <div class="justify-between w-full pb-12 md:flex ">
+          <div class="mr-4 md:w-1/3">
               <img src="/assets/images/pipes-4.jpg" alt="">
-              <img src="/assets/images/pipes-1.jpg" alt="">
+              <img src="/assets/images/pipes-1.jpg" class="mt-2" alt="">
           </div>
-          <div class="w-1/3 ">
-               2
+          <div class="mr-6 md:w-1/3 content" >
+               <h2 class="text-2xl font-bold text-primary">Service</h2>
+                    <p>Our experienced and service-oriented team in our head office in Accra, has the complete understanding of all the components and specific requirements.</p>
+
+                    <p>With a commitment to swift, reliable and responsible service, we can deliver all these products, allowing your production to stay operational at all times.</p>
+
+                    <p>Whether you work in mining, agriculture, food processing or other industry.</p>
+
+                    <p>We are giving you the confidence that only best-in-class products are being fitted for your application or installation.</p>
+
+                    <p>To inquire about our products and services, or to find out more about how we can assist you, do not hesitate to contact us today. The H.P.E. team is available for you!</p>
+
+                    <h2 class="mt-4 text-2xl font-bold text-primary">Quality Assurance</h2>
+                    <p>We stand behind every product that leaves our doors.</p>
+
+                    <p>Each component is carefully designed, tested, re-tested, checked and rechecked until we are 100% satisfied it meets stringent performance standards and exact specifications.</p>
+
+                    <p>Our up-to-date technology and advanced training assures you get the very best product available</p>
           </div>
-          <div class="w-1/3 ">
-               3
+          <div class="md:w-1/3 content">
+               <h2 class="text-2xl font-bold text-primary">Core Values</h2>
+               <p>Safety, integrity and responsibility in everything we do Highly experienced and competent Service Team. Fast & friendly support, attention to every detail</p>
+
+               <h2 class="text-2xl font-bold text-primary">Customer Service</h2>
+               <p>At H.P.E. INDUSTRY LTD. we are always ready and able to answer or assist you with any questions or problems you may have.No customer is too small. No question goes unanswered.</p>
+
+               <p>We pride ourselves on responding to the needs of our customers – before and long after the point of sale.We are able to make any modifications to existing products to fit your specific applications.</p>
+
+               <p>We expect nothing less than complete customer satisfaction.</p>
+               <hr class="my-4">
+               <img src="/assets/images/services-pc.jpg" alt="">
           </div>
      </div>
 </section>
