@@ -4,5 +4,9 @@
 @import 'flickity/css/flickity';
 
 .section {
-    @apply w-auto mx-4 md:container md:mx-auto;
+    @apply w-auto px-4 mx-4 md:container md:mx-auto;
+}
+
+.content p {
+    @apply mt-4 leading-relaxed max-w-prose
 }
