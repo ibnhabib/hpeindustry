@@ -7,7 +7,7 @@
                 <h2 class="z-10 mb-4 text-2xl font-bold text-primary">Welcome to HPE Industry</h2>
                 <p class="mt-4 ">Established in April 2005, we are a well stocked, full service hydraulic, pneumatic and electronics- company that offers a wide range of equipment and services from top international brands</p>
             </div>
-            <a class= "inline-block px-4 py-2 mt-2 font-bold text-white rounded bg-primary hover:bg-primary-darker" href="#">Get In Touch</a> 
+            <a class= "blue_button" href="/contact">Get In Touch</a> 
         </div>
     </div>
     <div class="w-full lg:w-3/4 bg-gray-50">
