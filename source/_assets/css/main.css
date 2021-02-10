@@ -34,5 +34,5 @@
 }
 
 .white_button {
-    @apply inline-block px-4 py-2 mt-4 font-bold text-primary rounded bg-white hover:bg-primary hover:text-white
+    @apply border border-primary inline-block px-4 py-2 mt-4 font-bold text-primary rounded bg-white hover:bg-primary hover:text-white
 }
