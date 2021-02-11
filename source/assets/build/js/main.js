@@ -4513,8 +4513,8 @@ __webpack_require__(/*! flickity-imagesloaded */ "./node_modules/flickity-images
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/stayyef/musta/sites/hpeindustry/source/_assets/js/main.js */"./source/_assets/js/main.js");
-module.exports = __webpack_require__(/*! /home/stayyef/musta/sites/hpeindustry/source/_assets/css/main.css */"./source/_assets/css/main.css");
+__webpack_require__(/*! /Users/mustaphahamoui/sites/hpeindustry/source/_assets/js/main.js */"./source/_assets/js/main.js");
+module.exports = __webpack_require__(/*! /Users/mustaphahamoui/sites/hpeindustry/source/_assets/css/main.css */"./source/_assets/css/main.css");
 
 
 /***/ })

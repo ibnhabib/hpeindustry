@@ -11,7 +11,7 @@ title: HPE Industry | Services
 <section class="pb-24 section">
    <div class="flex flex-col md:flex-row">
 
-     <div class="order-last mr-12 md:order-first md:w-1/3">
+     <div class="order-last mr-12 md:order-first md:w-1/3 mt-4 md:mt-0">
           <img class="w-full" src="/assets/images/pipes-6.jpg" alt="HPE Industry Piping. Infinity Solutions">
           <img class="w-full mt-2" src="/assets/images/pipes-5.jpg" alt="HPE Industry Piping. Infinity Solutions">
           <img class="w-full mt-2" src="/assets/images/pipes-2.jpg" alt="HPE Industry Piping. Infinity Solutions">
@@ -44,7 +44,7 @@ title: HPE Industry | Services
           <p>We are dedicated to providing ongoing support and industry solutions in electro-pneumatic, Industrial Automation with a highly cost Effective Solution products of Sensors.</p>
 
 
-          <a href="/contact" class="block mt-4 blue_button">Get In Touch</a>
+          <a href="/contact" class="blue_button">Get In Touch</a>
 
      </div>
 

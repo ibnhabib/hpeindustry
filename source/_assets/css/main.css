@@ -3,36 +3,41 @@
 @import 'tailwindcss/utilities';
 @import 'flickity/css/flickity';
 
-.section {
-    @apply w-auto px-4 mx-4 md:container md:mx-auto;
-}
-.content p+h2{
-    @apply mt-4;
-}
-.content p {
-    @apply mt-4 leading-relaxed max-w-prose;
-}
+@layer components {
+    .section {
+        @apply w-auto px-4 mx-4 md:container md:mx-auto;
+    }
+    .content p+h2{
+        @apply mt-4;
+    }
+    .content img+h2 {
+        @apply mt-4;
+    }
+    .content p {
+        @apply mt-4 leading-relaxed max-w-prose;
+    }
 
-.content p.lead{
-    @apply text-xl text-gray-600 ;
-}
+    .content p.lead{
+        @apply text-xl text-gray-600 ;
+    }
 
-.content h1 {
-    @apply text-3xl font-bold text-gray-700;
-}
+    .content h1 {
+        @apply text-3xl font-bold text-gray-700;
+    }
 
-.content h2 {
-    @apply mt-4 text-2xl font-bold md:mt-0 text-primary
-}
+    .content h2 {
+        @apply mt-4 text-2xl font-bold md:mt-0 text-primary
+    }
 
-.content h1 + h2 {
-    @apply mt-4
-}
+    .content h1 + h2 {
+        @apply mt-4
+    }
 
-.blue_button {
-    @apply inline-block px-4 py-2 mt-4 font-bold text-white rounded bg-primary hover:bg-primary-darker
-}
+    .blue_button {
+        @apply inline-block px-4 py-2 mt-4 font-bold text-white rounded bg-primary hover:bg-primary-darker
+    }
 
-.white_button {
-    @apply border border-primary inline-block px-4 py-2 mt-4 font-bold text-primary rounded bg-white hover:bg-primary hover:text-white
+    .white_button {
+        @apply border border-primary inline-block px-4 py-2 mt-4 font-bold text-primary rounded bg-white hover:bg-primary hover:text-white
+    }
 }
