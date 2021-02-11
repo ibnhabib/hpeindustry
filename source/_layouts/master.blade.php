@@ -8,18 +8,18 @@
         <link rel="canonical" href="{{ $page->getUrl() }}">
         <meta name="description" content="{{ $page->description }}">
         <title>{{ $page->title }}</title>
-        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        <style>{{ inline(mix('css/main.css', 'assets/build')) }}</style>
     </head>
     <body class="font-sans antialiased text-gray-900">
         
-    {{-- Responsive Helper Bar. Remove when done --}}
-    <div class="container p-2 mx-auto text-xs bg-gray-300">
+    {{-- Responsive Helper Bar. hide in production --}}
+    {{--<div class="container p-2 mx-auto text-xs bg-gray-300">
         <span class="sm:hidden">extra small</span>
         <span class="hidden sm:inline-block md:hidden">small</span>
         <span class="hidden md:inline-block lg:hidden">medium</span>
         <span class="hidden lg:inline-block xl:hidden">large</span>
         <span class="hidden xl:inline-block">extra large</span>
-    </div>
+    </div>--}}
     <div class="min-h-screen">
         @yield('body')
     </div>
