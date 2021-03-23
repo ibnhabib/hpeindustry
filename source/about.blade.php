@@ -14,11 +14,11 @@ title: About HPE Industry
           <h1>About Mars Express Group.</h1>
 
           <p class="lead">
-               Established in 2020 pandemic in Abu Dhabi, UAE. We are Logistics and General trading compnay dealing in Packing Material trade, freight forwarding and relocation servcies. We have helped about 300 customers to pack and relocate their cargos back to home in 2020.!
+               Established in 2020 pandemic in Abu Dhabi, UAE. We are Logistics and General trading compnay dealing in Packing Material trade, freight forwarding and relocation servcies. We have helped about 300 customers to pack and relocate their cargos back to home in 2020!
           </p>
 
           <p class="lead">
-          Because of this, H.P.E. INDUSTRY LTD. has earned a reputation of being among the best in the industry, a large part of which is due to the fact that we have a genuine interest in our customer’s success.
+          Because of this, Mars Express Group. has earned a reputation of being among the best service delivery, a large part of which is due to the fact that we have a genuine interest in our customer’s success.
           </p>
 
      </div>
