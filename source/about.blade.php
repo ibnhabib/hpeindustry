@@ -11,10 +11,10 @@ title: About HPE Industry
    <div class="md:flex">
      <div class="mr-4 md:w-1/2 content">
 
-          <h1>About HPE Industry LTD.</h1>
+          <h1>About Mars Express Group.</h1>
 
           <p class="lead">
-               Established in April 2005, we are a well stocked, full service hydraulic, pneumatic and electronics- company that offers a wide range of hydraulics, pneumatics and electronic equipment, as well as air-filtration, drives, instrumentation, valves etc. We are authorized distributors and service providers for FESTO, AIGNEP, AUTONICS, COMEX, FINDER, INFINITY, JORC, M&M ROTORK, MEI, OMI, and SHINY products in Ghana. We stock and provide only superior products from trusted names!
+               Established in 2020 pandemic in Abu Dhabi, UAE. We are Logistics and General trading compnay dealing in Packing Material trade, freight forwarding and relocation servcies. We have helped about 300 customers to pack and relocate their cargos back to home in 2020.!
           </p>
 
           <p class="lead">
