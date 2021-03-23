@@ -1,6 +1,6 @@
 ---
 extends: _layouts.master
-title: Welcome To HPE Industry
+title: Welcome To Mars Express
 ---
 
 
@@ -21,7 +21,7 @@ title: Welcome To HPE Industry
         {{-- products intro --}}
         <h2 class="pb-3 mb-3 text-2xl font-bold text-gray-800 ">Products</h2>
         <div class="border-t border-b border-dashed border-primary">
-            <p class="py-4 text-xl text-gray-600 max-w-prose">H.P.E. Industry LTD. stocks a wide range of products from valves and cylinders to sensors, pumps and motors in Ghana, all from top international brands listed below.</p>
+            <p class="py-4 text-xl text-gray-600 max-w-prose">Mars Express stocks a wide range of products from Packing Material, Cargo packing, Logistics services, relocation and moving services in Abu Dhabi, all from top international brands listed below.</p>
         </div>
         {{-- products grid --}}
 

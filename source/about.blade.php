@@ -1,6 +1,6 @@
 ---
 extends: _layouts.master
-title: About HPE Industry
+title: About Mars Express
 ---
 
 @section('body')

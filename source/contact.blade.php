@@ -28,18 +28,18 @@ title: HPE Industry | Services
           <h2>By Phone</h2>
           <dl class="mb-4">
             <dt class="mt-4 text-primary uppercase">Mobile/Whatsapp</dt>
-            <dd><a href="tel:+233243366718">+233 (0) 243 366 718</a></dd>
+            <dd><a href="tel:+971554948975">+971 (55) 4948975</a></dd>
 
             <dt class="mt-4 text-primary uppercase">Landline</dt>
-            <dd>233 (0) 302 235 108</dd>
+            <dd>971 (2) 554 88 22</dd>
 
             <dt class="mt-4 text-primary uppercase">Fax</dt>
-            <dd>+233 (0) 302 235 109</dd>
+            <dd>+971 (2) 444 28 48</dd>
           </dl>
 
           <h2>By Email</h2>
 
-          <p><a href="mailto:sales@hpeindustry.com">sales@hpeindustry.com</a></p>
+          <p><a href="mailto:sales@ukargo.com">sales@ukargo.com</a></p>
 
           <h2>Facebook Page</h2>
           <a href="https://web.facebook.com/hpeindustry" class="white_button">Join our Facebook Page</a>
